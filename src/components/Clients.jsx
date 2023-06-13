@@ -10,7 +10,7 @@ const Clients = () => {
       </h2>
       {/* <h3> dummy dummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydumm  dummy dummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummydummyy</h3> */}
 </div>
-  <section id="Partners" className={`${styles.flexCenter} min-h-screen animate-fade-down animate-infinite animate-duration-[3000ms] animate-delay-1000 animate-ease-in-out animate-normal animate-fill-both ` }>
+  <section id="Partners" className={`${styles.flexCenter} min-h-screen`} data-taos-offset="300">
  
     <div className={`${styles.flexCenter} flex-wrap w-full h-full`}>
       {clients.map((client) => (

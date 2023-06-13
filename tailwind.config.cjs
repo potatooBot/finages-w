@@ -3,6 +3,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}",
   "./node_modules/flowbite/**/*.js"] ,
   mode: "jit",
+  transform: (content) => content.replace(/taos:/g, ''),
   theme: {
     extend: {
       colors: {
@@ -24,9 +25,15 @@ module.exports = {
       xl: "1700px",
     },
   },
+  safelist: [
+    '!duration-[0ms]',
+    '!delay-[0ms]',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
+  ],
   plugins: [ require('@tailwindcss/forms'),
   require('tailwindcss-animated'),
-  require('flowbite/plugin')
+  require('flowbite/plugin'),
+  require('taos/plugin')
 
 ],
 };
