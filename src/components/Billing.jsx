@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={emi} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={emi} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-lg" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -13,17 +13,17 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+      <h2 className={`${styles.heading2}  text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
         Easily control your <br className="sm:block hidden" /> billing &
         invoicing
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
      loremepsum
      loremepsum     loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum
       </p>
       <a href="https://finages-emi.netlify.app">
 
-<button type="button" className={`py-3 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+<button type="button" className={`my-5 py-3 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
 Calculate
 </button>
 </a>
@@ -31,6 +31,8 @@ Calculate
 
 
     </div>
+    
+
   </section>
 );
 

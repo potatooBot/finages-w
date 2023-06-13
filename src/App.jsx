@@ -41,7 +41,7 @@ return (
       </div>
 }/>
   <Route path="/Credit" element={
-     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+     <div className={`bg-gradient-to-r from-gray-100 to-gray-300  ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
 <CreditCard/>
       </div>

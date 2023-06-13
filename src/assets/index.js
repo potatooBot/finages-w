@@ -40,6 +40,11 @@ import aubank from "./aubank.png";
 import emi from "./emi.png";
 import axis_cred_card from "./axis_cred_card.png"
 import sbi_card from "./sbi_card.png"
+import cara1 from "./cara1.jpg"
+import cara2 from "./cara2.jpg"
+import cara3 from "./cara3.jpg"
+import cara4 from "./cara4.jpg"
+import cara5 from "./cara5.jpg"
 export {
   axis_cred_card,
   sbi_card,
@@ -52,6 +57,11 @@ export {
   coinbase,
   dropbox,
   emi,
+  cara1,
+  cara2,
+  cara3,
+  cara4,
+  cara5,
 
   finages_logo,
   finnable,

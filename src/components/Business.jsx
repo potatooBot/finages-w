@@ -2,9 +2,11 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
+import { emi } from "../assets";
 import { navLinks } from "../constants";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import { cara1,cara2,cara3,cara4,cara5 } from "../assets";
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card `}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
@@ -22,7 +24,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 const Business = () =>  {
   return<>
-    
+  
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={`${styles.heading2} text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
@@ -54,7 +56,9 @@ const Business = () =>  {
     </div>
   </section>
 
+
 </>
+
 };
 
 export default Business;

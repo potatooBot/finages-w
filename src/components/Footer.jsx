@@ -11,22 +11,22 @@ const Footer = () => (
           alt="Finages"
           className="w-[266px] h-[72.14px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
+        <p className={`${styles.paragraph} mt-4 max-w-[312px] text-black`}>
           A new way to make the payments easy, reliable and secure.
         </p>
       </div>
 
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10 text-black">
         {footerLinks.map((footerlink) => (
           <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
               {footerlink.title}
             </h4>
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.link}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimBlack hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                   onClick={() => setActive(link.name)}
@@ -42,7 +42,7 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
         Copyright Ⓒ 2023 Finages. All Rights Reserved.
       </p>
 

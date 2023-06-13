@@ -5,18 +5,18 @@ import Button from "./Button";
 const CardDeal = () => (
   <section className={layout.section} id="EMI">
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-       Check EMI with our  <span style={{color: 'yellow'}}>EMI Calculator</span>{' '}  <br className="sm:block hidden" /> in few easy
+      <h2 className={`${styles.heading2} text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
+       Check EMI with our  <span style={{color: 'black'}}>EMI Calculator</span>{' '}  <br className="sm:block hidden" /> in few easy
         steps.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
        Dummy DUMMY DUMMY DUMMY DUMMY DUMMY  
       </p>
 
      
       <a href="https://finages-emi.netlify.app">
 
-<button onClick={() => { window.open("www.google.com") } } type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+<button onClick={() => { window.open("www.google.com") } } type="button" className={`my -5 py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
 Contact Us
 </button>
 </a>

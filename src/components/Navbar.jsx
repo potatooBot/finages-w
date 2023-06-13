@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="w-full flex py-10 justify-between items-center navbar-default boreder-none">
+    <nav className=" w-full flex py-10 justify-between items-center boreder-none ">
     <a href="/">
 
     

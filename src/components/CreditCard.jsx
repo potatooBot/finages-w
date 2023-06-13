@@ -58,10 +58,10 @@ const CreditCard = () => {
 
   return <>
     <div className={layout.sectionInfo}>
-    <h2 className={styles.heading2}>
+    <h2 className={`${styles.heading2} text-black`}>
       Credit Card Services
     </h2>
-    <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+    <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
       As of today, credit cards are critical tools that empower a person to acquire goods,
       and avail of services with the comfort of making payments for those purchases on another date.
 
@@ -83,7 +83,7 @@ const CreditCard = () => {
       >
         {sliderImageUrl.map((imageUrl, index) => {
           return (
-            <div className="slider max-w-xs transition duration-300 ease-in-out hover:scale-110 animate-jump-in animate-infinite animate-duration-[5000ms]" key={index}>
+            <div className=" text-black slider max-w-xs transition duration-100 ease-in-out hover:scale-110 animate-jump-in animate-once animate-duration-[5000ms]" key={index}>
              <a href="/Contact">
 
              <img  src={imageUrl.url} alt="movie" />
