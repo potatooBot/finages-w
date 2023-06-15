@@ -1,9 +1,10 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contact,Apply,CreditCard } from "./components";
+import {Reach, Billing, Business, CardDeal, Clients,Carousel, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contact,Apply,CreditCard } from "./components";
 
 import {BrowserRouter, Routes,Route } from "react-router-dom";
 import Test from "./Test";
 import Home from "./Home";
+
 
 function App  () {
 return (

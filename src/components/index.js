@@ -11,10 +11,12 @@ import Hero from "./Hero";
 import Contact from "./Contact"
 import Apply from "./Apply";
 import CreditCard from "./CreditCard";
-
-
+import Carousel from "./Carousel";
+import Reach from "./Reach";
 export {
+  Reach,
   Navbar,
+  Carousel,
   Billing,
   CardDeal,
   Business,

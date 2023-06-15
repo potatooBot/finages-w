@@ -25,7 +25,7 @@ event.preventDefault();
 const  {name,phone,email,income,pan}=userData;
 if(name&&phone&&email&&income&&pan){
 const res =fetch(
-"https://finages-f4aaa-default-rtdb.firebaseio.com/userDataRecords.json",
+"https://finages-f4aaa-default-rtdb.firebaseio.com/creditcards.json",
 {
     method:"POST",
     headers:{
@@ -46,8 +46,6 @@ if(res){
         income:"",
         pan:"", 
     })
-    
-    
     alert("Thank You for filling the form.");
    
 }

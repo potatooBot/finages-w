@@ -4,6 +4,7 @@ import GetStarted from "./GetStarted";
 import { stats } from "../constants";
 import Stats from "./Stats";
 import Business from "./Business";
+
 import CTA from "./CTA";
 import Footer from "./Footer";
 import CardDeal from "./CardDeal";
@@ -12,6 +13,8 @@ import Clients from "./Clients";
 import Billing from "./Billing";
 import Contact from "./Contact";
 import CreditCard from "./CreditCard";
+import Carousel from "./Carousel";
+import Reach from "./Reach";
 
 const Hero = () => {
   return <>
@@ -68,10 +71,11 @@ const Hero = () => {
       <Stats/>
       <Business/>
       <Billing/>
+      <Carousel/>
        <CardDeal/>
        <Testimonials/>
        <Clients/>
-       <Contact/>
+       <Reach/>
       <Footer/>  
 
       </div>
