@@ -13,7 +13,9 @@ import Apply from "./Apply";
 import CreditCard from "./CreditCard";
 import Carousel from "./Carousel";
 import Reach from "./Reach";
+import Career from "./Career";
 export {
+  Career,
   Reach,
   Navbar,
   Carousel,

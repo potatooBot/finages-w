@@ -1,5 +1,5 @@
 import styles from "./style";
-import {Reach, Billing, Business, CardDeal, Clients,Carousel, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contact,Apply,CreditCard } from "./components";
+import {Reach,Career, Billing, Business, CardDeal, Clients,Carousel, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contact,Apply,CreditCard } from "./components";
 
 import {BrowserRouter, Routes,Route } from "react-router-dom";
 import Test from "./Test";
@@ -45,6 +45,20 @@ return (
      <div className={`bg-gradient-to-r from-gray-100 to-gray-300  ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
 <CreditCard/>
+      </div>
+      </div>
+}/>
+  <Route path="/Career" element={
+     <div className={`bg-gradient-to-r from-gray-100 to-gray-300  ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+<Career/>
+      </div>
+      </div>
+}/>
+  <Route path="/creditcard" element={
+     <div className={`bg-gradient-to-r from-gray-100 to-gray-300  ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+<Reach/>
       </div>
       </div>
 }/>

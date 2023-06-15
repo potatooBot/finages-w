@@ -122,11 +122,11 @@ const Reach = () => {
                 </label>
                 <input
                   className="w-full px-4 py-2 text-sm border rounded-md focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-600"
-                  required
+                
                   onChange={postUserData}
                   value={userData.pan}
                   name="pan"
-                  placeholder="Average Monthly Income" type="number" />
+                  placeholder="Pan Card" type="text" />
               </div>
               <div>
                 <label className="block mt-4 text-sm">

@@ -21,7 +21,7 @@ export const navLinks = [
   },
 
   {
-    id: "https://forms.gle/ZeshEuEHbmAgZAnf9",
+    id: "https://docs.google.com/forms/d/e/1FAIpQLSep6D-mDG5ijRgku_v1T9n2w8oJ5d5vuaqDNBBxo0dmAWTuXg/viewform",
     title: "Career",
   },
 ];
@@ -44,7 +44,7 @@ export const navLinks2 = [
     title: "Our Partners",
   },
   {
-    id: "CTA",
+    id: "https://docs.google.com/forms/d/e/1FAIpQLSep6D-mDG5ijRgku_v1T9n2w8oJ5d5vuaqDNBBxo0dmAWTuXg/viewform",
     title: "Career",
   },
 ];

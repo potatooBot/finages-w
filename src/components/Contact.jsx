@@ -10,8 +10,7 @@ const Contact= () => {
     phone:"",
     income:"",
     pan:"",
-
-
+    card:"",
   });
   let name,value;
   const postUserData=(event)=>{
@@ -22,17 +21,17 @@ setUserData({... userData,[name]:value});
   //Firebase
   const submitData =(event)=>{
 event.preventDefault();
-const  {name,phone,email,income,pan}=userData;
+const  {name,phone,email,income,pan,card}=userData;
 if(name&&phone&&email&&income&&pan){
 const res =fetch(
-"https://finages-f4aaa-default-rtdb.firebaseio.com/creditcards.json",
+"https://finages-f4aaa-default-rtdb.firebaseio.com/CreditCards.json",
 {
     method:"POST",
     headers:{
         "Content-Type": "application/json",
     },
     body: JSON.stringify({
-        name,phone,email,income,pan
+        name,phone,email,income,pan,card
     }),
 }
 
@@ -45,6 +44,8 @@ if(res){
         phone:"",
         income:"",
         pan:"", 
+        card,
+     
     })
     alert("Thank You for filling the form.");
    
@@ -57,7 +58,10 @@ else{
     alert("Please Fill the Data");
 }
 }
-    return (
+    return <>
+
+   
+        
       <main id="Contact" className="relative py-28 bg-gray-900 rounded-lg">
           <div className="relative z-10 max-w-screen-lg mx-auto text-gray-600 sm:px-4 md:px-8 animate-jump-in animate-once animate-duration-1000 animate-delay-100">
               <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
@@ -138,20 +142,6 @@ else{
                               className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                           />
                       </div>
-                      
-                      <div>
-                          <label className="font-medium">
-                         Card You Applying For
-                          </label>
-                          <input
-                              type="text"
-                              name="Card"
-                              placeholder="Eg :SBI,HDFC"
-                              value={userData.pan}
-                              onChange={postUserData}
-                              className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                          />
-                      </div>
                       <div>
                           <label className="font-medium">
                               Phone number
@@ -171,17 +161,22 @@ else{
                       
 
         {/* <label for="countries" class="block mb-2  text-sm font-medium text-gray-900 dark:text-Black">Occupation</label> */}
-        <label className="font-medium">
-                        Occupation
+        <div>
+                          <label className="font-medium">
+                              Which Credit Card you applying for ? Eg-SBI,HDFC.
                           </label>
-<select id="countries" class="bg-black-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dar
-value={userData.name}
-onChange={postUserData}k:text-gray dark:focus:ring-blue-500 dark:focus:border-blue-500">
-
-  <option selected>Select Occupation</option>
-  <option value="US">Salaried</option>
-  <option value="CA">Self Employed</option>
-</select>
+                          <div className="relative mt-2">
+                              <input
+                              name="card"
+                                  type="text"
+                                  placeholder="SBI"
+                                  value={userData.card}
+                                  onChange={postUserData}
+                                  required
+                                  className="w-full pl-[1rem] pr-3 py-2 place appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                              />
+                          </div>
+                      </div>
 
                       {/* <div>
                           <label className="font-medium">
@@ -199,6 +194,6 @@ onChange={postUserData}k:text-gray dark:focus:ring-blue-500 dark:focus:border-bl
         
 
       </main>
-  )
+      </>
 }
 export default Contact;
