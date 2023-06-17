@@ -68,7 +68,7 @@ else{
                   <h3 className="text-cyan-400 font-semibold">
                      Finages 24 x 7
                   </h3>
-                  <p className="text-white text-3xl font-semibold sm:text-4xl">
+                  <p className="text-white text-3xl font-semibold sm:text-4xl z-1">
                   Reach to Finages
                   </p>
                   <p className="text-gray-300">
