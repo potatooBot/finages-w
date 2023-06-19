@@ -11,10 +11,10 @@ export const navLinks = [
     title: "Credit Cards",
   },
   
-  {
-    id: "Partners",
-    title: "Loans",
-  },
+  // {
+  //   id: "Partners",
+  //   title: "Loans",
+  // },
   {
     id: "Contact",
     title: "Contact Us",

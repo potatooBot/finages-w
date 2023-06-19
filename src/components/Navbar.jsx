@@ -2,6 +2,13 @@ import { useState } from "react";
 
 import { close, menu, finages_logo } from "../assets";
 import { navLinks,navLinks2 } from "../constants";
+import {
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
+  Button,
+} from "@material-tailwind/react";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,9 +16,9 @@ const Navbar = () => {
 
 
 
+  return <>
 
 
-  return (
     <nav className=" w-full flex py-10 justify-between items-center boreder-none ">
     <a href="/">
 
@@ -34,7 +41,22 @@ const Navbar = () => {
         )
       
         }
-       
+        <Menu
+      animate={{
+        mount: { y: 0 },
+        unmount: { y: 55 },
+      }}
+    >
+      <MenuHandler>
+        <span className="text-black font-poppins font-medium cursor-pointer text-[16px] mx-10" >Loans</span>
+      </MenuHandler>
+      <MenuList style={{zIndex:9999}}>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal  Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Auto Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+      </MenuList>
+    </Menu>
       </ul>
 
 
@@ -60,15 +82,30 @@ const Navbar = () => {
                   active === nav.title ? "text-black" : "text-dimBlack"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}  
                 onClick={() => setActive(nav.title)}>
-                
                 <a className="z-9999" href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <Menu
+      animate={{
+        mount: { y: 0 },
+        unmount: { y: 55 },
+      }}
+    >
+      <MenuHandler>
+        <span className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Loans</span>
+      </MenuHandler>
+      <MenuList className="my-5" style={{zIndex:9999}}>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Auto Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+      </MenuList>
+    </Menu>
           </ul>
         </div>
       </div>
     </nav>
-  );
+    </>
 };
 
 export default Navbar;
