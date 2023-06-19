@@ -59,9 +59,6 @@ else{
 }
 }
     return <>
-
-   
-        
       <main id="Contact" className="relative py-28 bg-gray-900 rounded-lg">
           <div className="relative z-10 max-w-screen-lg mx-auto text-gray-600 sm:px-4 md:px-8 animate-jump-in animate-once animate-duration-1000 animate-delay-100">
               <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
@@ -75,12 +72,12 @@ else{
                       We’d love to help you out.
                   </p>
               </div>
-              <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 rounded-xl">
+              <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 rounded-xln" style={{zIndex:1}}>
                   <form
                       onSubmit={(e) => e.preventDefault()}
                       className="space-y-5"
                    method='POST'>
-                      <div>
+                      <div >
                           <label className="font-medium">
                               Full name
                           </label>

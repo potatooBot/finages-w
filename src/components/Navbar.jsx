@@ -76,7 +76,7 @@ const Navbar = () => {
             !toggle ? "hidden" : "flex"
           } p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar border-none z-auto`}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+          <ul className="list-none flex justify-end items-start flex-1 flex-col  z-100"  style={{zIndex:9999}}>
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
@@ -87,18 +87,21 @@ const Navbar = () => {
                 <a className="z-9999" href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <Menu
+            <Menu 
       animate={{
+        
         mount: { y: 0 },
         unmount: { y: 55 },
+      
       }}
+     
     >
-      <MenuHandler>
+      <MenuHandler >
         <span className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Loans</span>
       </MenuHandler>
-      <MenuList className="my-5" style={{zIndex:9999}}>
+      <MenuList className="my-5 z-50" style={{zIndex:9999}} >
       <a href="/Carloan">
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+        <MenuItem href="/Carloan" className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
         </a>
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Auto Loan</MenuItem>
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal Loan</MenuItem>
