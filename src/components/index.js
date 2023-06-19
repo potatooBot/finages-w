@@ -14,7 +14,9 @@ import CreditCard from "./CreditCard";
 import Carousel from "./Carousel";
 import Reach from "./Reach";
 import Career from "./Career";
+import Carloan from "./Carloan";
 export {
+  Carloan,
   Career,
   Reach,
   Navbar,

@@ -51,10 +51,12 @@ const Navbar = () => {
         <span className="text-black font-poppins font-medium cursor-pointer text-[16px] mx-10" >Loans</span>
       </MenuHandler>
       <MenuList style={{zIndex:9999}}>
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
+       <a href="/Carloan">
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+        </a>
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal  Loan</MenuItem>
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Auto Loan</MenuItem>
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
       </MenuList>
     </Menu>
       </ul>
