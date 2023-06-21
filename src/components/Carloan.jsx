@@ -266,75 +266,75 @@ minimum 2 years.
 
                 <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
                     <tr>
-                        <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                        <th scope="col" className="px-6 py-3 bg-gray-50 dark:bg-gray-800">
                         Features
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th scope="col" className="px-6 py-3">
                         New Car Loan
                         </th>
-                        <th  class="px-2 py-3">
+                        <th  class="px-6 py-3">
                         Used Car Loan
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                    <tr className="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                         Interest rates
                         </th>
-                        <td class="px-2 py-4">
+                        <td className="px-6 py-4">
                         7.25% - 14.00%
                         </td>
-                        <td class="px-2 py-4">
+                        <td className="px-6 py-4">
                            	
  10.00% - 18.00%
                         </td>
                     </tr>
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                         Loan tenure
                         </th>
-                        <td class="px-2 py-4">
+                        <td className="px-6 py-4">
                         Up to 7 years
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                            	
 	
                         Up to 5 years
                         </td>
                     </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    <tr className="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                         Processing fee
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                         Starting from 0.20% of the loan amount
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                            	
                         Up to 2% of the loan amount
                         </td>
                     </tr>
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                         Loan amount
                         </th>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                         Up to 100% of the ex-showroom price
                         </td>
-                        <td class="px-6 py-4">
+                        <td className="px-6 py-4">
                            	
                         Up to 80% of the car’s valuation
                         </td>
                     </tr>
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                         Prepayment charges
                         </th>
-                        <td class="px-7 py-4">
+                        <td class="px-6 py-4">
                         	
 0.5% - 5% on principal outstanding or interest outstanding for unexpired period of loan, whichever is lower
                         </td>
@@ -365,100 +365,101 @@ minimum 2 years.
                 <tbody>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
+                          Axis Bank
                         </th>
                         <td class="px-6 py-4">
-                            1%
+                           	
+8.50% - 11.25%
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
+                        Aditya Birla Finance
                         </th>
                         <td class="px-6 py-4">
-                            1%
+                        9.20%-11.25%
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
+                            Yes Bank
                         </th>
                         <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
-                        </td>
-                    </tr>
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
-                        </th>
-                        <td class="px-6 py-4">
-                            1%
+                        9.80% – 12.40%
                         </td>
                     </tr>
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            SBI
+                        HDFC Bank
                         </th>
                         <td class="px-6 py-4">
-                            1%
+                        8.80% – 10.00%
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        IDFC FIRST Bank
+                        </th>
+                        <td class="px-6 py-4">
+                        9.0% to 10.5%
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        Kotak Mahindra Bank
+                        </th>
+                        <td class="px-6 py-4">
+                        8.12% to 23.54%
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        TATA Capital Finance 
+                        </th>
+                        <td class="px-6 py-4">
+                        7.50%
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        ICICI Bank
+                        </th>
+                        <td class="px-6 py-4">
+                        8.82% - 12.75%
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        Bajaj Finserv
+                        </th>
+                        <td class="px-6 py-4">
+                        10.50% to 22%
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        Finnable
+                        </th>
+                        <td class="px-6 py-4">
+                        16 to 28%
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                        HDB Financial Services
+                        </th>
+                        <td class="px-6 py-4">
+                        8.00% to 26.00%
+                        </td>
+                    </tr>
+
+                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                           Indusland Bank
+                        </th>
+                        <td class="px-6 py-4">
+                        7% - 14%
                         </td>
                     </tr>
                 </tbody>
