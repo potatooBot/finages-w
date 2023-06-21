@@ -47,9 +47,14 @@ import cara4 from "./cara4.jpg"
 import cara5 from "./cara5.jpg"
 import group from "./group.jpg"
 import carloan from "./carloan.png"
+import carloan2 from "./carloan2.png"
+
 import rupicon from "./rupicon.png"
+import carloan3 from "./carloan3.png"
 export {
   carloan,
+  carloan2,
+  carloan3,
   rupicon,
   group,
   axis_cred_card,
