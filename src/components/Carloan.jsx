@@ -1,5 +1,5 @@
 import React from 'react'
-import { apple, bill, emi, google, discount, carloan, rupicon, rupee, carloan2, carloan3, caricon } from "../assets";
+import { apple, bill, emi, google, discount, carloan, rupicon, rupee, carloan2,hand,fee,pay,time, carloan3, caricon } from "../assets";
 import Footer from './Footer';
 import CardDeal from './CardDeal';
 
@@ -68,7 +68,7 @@ const Carloan = () => {
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <img src={rupicon} alt="drawer" />
+                                        <img src={time} alt="drawer" />
                                     </div>
                                 </div>
                                 <div className="w-10/12">
@@ -80,7 +80,7 @@ const Carloan = () => {
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <img src={rupicon} alt="drawer" />
+                                        <img src={hand} alt="drawer" />
                                     </div>
                                 </div>
                                 <div className="w-10/12">
@@ -92,7 +92,7 @@ const Carloan = () => {
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <img src={rupicon} alt="drawer" />
+                                        <img src={fee} alt="drawer" />
                                     </div>
                                 </div>
                                 <div className="w-10/12">
@@ -118,7 +118,7 @@ const Carloan = () => {
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <img src={rupicon} alt="drawer" />
+                                        <img src={pay} alt="drawer" />
                                     </div>
                                 </div>
                                 <div className="w-10/12">
@@ -130,7 +130,7 @@ const Carloan = () => {
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <img src={rupicon} alt="drawer" />
+                                        <img src={caricon} alt="drawer" />
                                     </div>
                                 </div>
                                 <div className="w-10/12">

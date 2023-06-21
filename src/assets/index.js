@@ -48,12 +48,17 @@ import cara5 from "./cara5.jpg"
 import group from "./group.jpg"
 import carloan from "./carloan.png"
 import carloan2 from "./carloan2.png"
-
 import rupicon from "./rupicon.png"
 import carloan3 from "./carloan3.png"
 import caricon from "./caricon.png"
+import fee from "./fee.png"
+import time from "./time.png"
+import hand from "./hand.png"
+import pay from "./pay.png"
 export {
   carloan,
+hand,pay,
+  fee,time,
   carloan2,
   carloan3,
   caricon,
