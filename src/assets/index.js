@@ -51,10 +51,12 @@ import carloan2 from "./carloan2.png"
 
 import rupicon from "./rupicon.png"
 import carloan3 from "./carloan3.png"
+import caricon from "./caricon.png"
 export {
   carloan,
   carloan2,
   carloan3,
+  caricon,
   rupicon,
   group,
   axis_cred_card,
