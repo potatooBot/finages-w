@@ -34,7 +34,7 @@ const Carloan = () => {
                 </p>
                 <a href="https://finages-emi.netlify.app">
                 </a>
-                <button onClick={() => window.open("/")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+                <button onClick={() => window.open("/Contact")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
                     Apply for car loan.
                 </button>
             </div>
