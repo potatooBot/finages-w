@@ -464,6 +464,10 @@ minimum 2 years.
                     </tr>
                 </tbody>
             </table>
+         
+        </div>
+        <div>
+        <h1 class="font-poppins flex items-center justify-center mb-2 text-sm font-semibold text-gray-900 dark:text-white" style={{ color: "#14141" }}>*Interest Rate may vary depending on your Credit score.</h1>
         </div>
 
         <Footer />
