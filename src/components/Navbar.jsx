@@ -51,10 +51,10 @@ const Navbar = () => {
         <span className="text-black font-poppins font-medium cursor-pointer text-[16px] mx-10" >Loans</span>
       </MenuHandler>
       <MenuList style={{zIndex:9999}}>
-       <a href="/Carloan">
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
-        </a>
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal  Loan</MenuItem>
+    
+        <MenuItem onClick={() => window.open("/Carloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+    
+        <MenuItem onClick={() => window.open("/Personalloan","_self")} style={{zIndex:9999}}  className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5"  >Personal  Loan</MenuItem>
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Auto Loan</MenuItem>
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
       </MenuList>
@@ -100,11 +100,11 @@ const Navbar = () => {
         <span className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Loans</span>
       </MenuHandler>
       <MenuList className="my-5 z-50" style={{zIndex:9999}} >
-      <a href="/Carloan">
-        <MenuItem href="/Carloan" className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
-        </a>
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Auto Loan</MenuItem>
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal Loan</MenuItem>
+    
+        <MenuItem onClick={() => window.open("/Carloan","_self")}className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+        <MenuItem  onClick={() => window.open("/Personalloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal Loan</MenuItem>
+        <MenuItem  style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5">Home Loan</MenuItem>
+   
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
       </MenuList>
     </Menu>

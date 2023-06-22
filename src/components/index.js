@@ -15,9 +15,10 @@ import Carousel from "./Carousel";
 import Reach from "./Reach";
 import Career from "./Career";
 import Carloan from "./Carloan";
+import Personalloan from "./Personalloan";
 export {
   Carloan,
-
+Personalloan,
   Career,
   Reach,
   Navbar,

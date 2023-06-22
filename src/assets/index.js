@@ -55,8 +55,10 @@ import fee from "./fee.png"
 import time from "./time.png"
 import hand from "./hand.png"
 import pay from "./pay.png"
+import pl1 from "./pl1.png"
 export {
   carloan,
+  pl1,
 hand,pay,
   fee,time,
   carloan2,

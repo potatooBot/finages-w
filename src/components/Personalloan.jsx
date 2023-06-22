@@ -1,5 +1,6 @@
+
 import React from 'react'
-import { apple, bill, emi, google, discount, carloan, rupicon, rupee, carloan2,hand,fee,pay,time, carloan3, caricon } from "../assets";
+import { apple, bill, emi, google,pl1, discount, carloan, rupicon, rupee, carloan2,hand,fee,pay,time, carloan3, caricon } from "../assets";
 import Footer from './Footer';
 import CardDeal from './CardDeal';
 
@@ -12,12 +13,13 @@ import {
     Typography,
     Button
 } from "@material-tailwind/react";
-import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
-const Carloan = () => {
-    return <>
+const Personalloan = () => {
+  return (
+  <>
+   
         <section id="product" className={layout.sectionReverse}>
             <div className={layout.sectionImgReverse}>
-                <img src={carloan} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-lg" />
+                <img src={pl1} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-lg" />
 
                 {/* gradient start */}
                 <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -27,15 +29,15 @@ const Carloan = () => {
 
             <div className={layout.sectionInfo}>
                 <h3 className={`${styles.heading2}  text-black`}>
-                    What is Car Loan ?
+                    What is Personal Loan ?
                 </h3>
                 <p className={` ${styles.paragraph} max-w-[470px] mt-5 text-black`}>
-                    A car loan is nothing but the funds that one borrows from a lender for the sole purpose of purchasing a car of his or her choice. Lenders like banks and Non-Banking Financial Companies (NBFCs) offer auto finance to consumers in the form of new and used car loans.
+                    
+A personal loan is a type of loan that individuals can borrow from a bank, credit union, or online lender for personal use. Unlike specific-purpose loans (such as auto loans or mortgages), personal loans can be used for a variety of purposes, such as debt consolidation, home improvements, medical expenses, vacations, or unexpected expenses.
                 </p>
-                <a href="https://finages-emi.netlify.app">
-                </a>
-                <button onClick={() => window.open("/ApplyLoans","_self")}  type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-                    Apply for car loan.
+        
+                <button onClick={() => window.open("/ApplyLoans","_self")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+                    Apply for Personal loan.
                 </button>
             </div>
 
@@ -48,7 +50,7 @@ const Carloan = () => {
                     <div>
                         <div role="contentinfo" className="flex items-center flex-col px-4">
 
-                            <h3 tabIndex={0} className="font-poppins font-semibold xs:text-[48px] text-[40px]">What are the features of a car loan?</h3>
+                            <h3 tabIndex={0} className="font-poppins font-semibold xs:text-[48px] text-[40px]">What are the features of a Personal loan?</h3>
                         </div>
                         <div tabIndex={0} aria-label="group of cards" className="focus:outline-none mt-20 flex flex-wrap justify-center gap-10 px-4">
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -59,8 +61,10 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan amount</h4>
-                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">Banks offer a maximum car loan of up to 85-100% of the on-road price/ex-showroom price of the car. If you pay a high down-payment on your chosen car, then the cost of your car loan will be less.
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan amount</h4>
+                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">
+
+                                    Banks and NBFCs usually offer personal loans for amounts ranging from Rs 10,000 to Rs 40 lakh. However, the personal loan amount you are eligible for would primarily depend on your loan repayment capacity. Banks and NBFCs evaluate your repayment capacity primarily on the basis of your monthly disposable income.
                                     </p>
                                 </div>
                             </div>
@@ -72,8 +76,8 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan tenure</h4>
-                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">You can opt for a short or long car loan tenure ranging from 1 to 7 years. A short loan tenure will ensure you repay your loan in a short period of time but will have high EMIs whereas a long tenure will have low EMIs but you will end up paying more in interest payments. </p>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan tenure</h4>
+                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">Generally, a loan tenure ranges from 12 months to 60 months. However, nowadays, many experienced and reputed lenders offer borrowers the choice of closing a loan in 3 months. Your loan tenure should depend on where you personally stand financially. A higher income can help you close a loan in a short tenure. </p>
                                 </div>
                             </div>
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -84,8 +88,8 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan interest rate</h4>
-                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> In order to repay your car loan, you have to pay interest on the principal loan amount every month over the chosen loan tenure. The interest rate of a car loan will vary depending on the bank you choose. Visit a third-party website to compare various car loan offers across the top banks and choose one that offers the lowest interest rate.</p>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan interest rate</h4>
+                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> The personal loan interest rates range between 8.75% p.a. and 49.5% p.a. Depending on the loan amount availed by you, your credit score, and repayment tenure, the rate of interest on your loan is decided. If you maintain a high credit score and have a good relationship with the bank, then the interest rate on your personal loan can be lowered.</p>
                                 </div>
                             </div>
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -96,10 +100,15 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan EMI</h4>
-                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Car loan is repaid to the bank in Equated Monthly Installments (EMIs). In order to get instant and accurate results of EMI calculation, use the online car loan EMI calculator that is available for free on the bank website or a reliable third-party website. 
-                                        EMI calculation can help you find out how much your car loan will cost you monthly.</p>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan EMI</h4>
+                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A personal loan EMI calculator can help you accurately determine your EMIs. You just need to select the loan amount, rate of interest and tenure, to get the exact EMI payable for your personal loan.</p>
+                                 
+                                    {/* <h5 style={{color:"black"}}>EMI = [PxRX(1+R)^N]/[(1+R)^N-1], wherein P represents the loan amount, R is the interest rate charged per month, and N indicates the total number of monthly installments</h5> */}
+                             <button onClick={() => window.open("https://finages-emi.netlify.app")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+                   Calculate EMI
+                </button>
                                 </div>
+                      
                             </div>
                      
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -111,7 +120,7 @@ const Carloan = () => {
                                 </div>
                                 <div className="w-10/12">
                                     <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Processing fee</h4>
-                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Banks charge a small percentage of the principal loan amount called the processing fee to process your car loan. The processing fee will be deducted at the time of disbursing the loan amount to your bank account. Some banks waiver the processing fee as a special offer.</p>
+                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Loan providers levy a one-time charge known as the processing fee, which can increase the cost of the loan. Even if you are charged a low interest, it is important to check and compare the processing fee charged by different lenders.</p>
                                 </div>
                             </div>
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -123,19 +132,19 @@ const Carloan = () => {
                                 </div>
                                 <div className="w-10/12">
                                     <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Prepayment/Preclosure</h4>
-                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Banks allow borrowers to prepay a part of the car loan after 12 EMI payments have been made. For making this prepayment, you will have to pay a penalty fee which is a percentage of the prepayment amount called the prepayment fee. You can also choose to pay the loan amount in full before the end of its loan tenure called preclosure.</p>
+                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Certain banks may charge you a pre-closure fee if you repay the outstanding loan balance before the completion of the loan repayment tenure. Make sure to check if the bank/financial institution that you are applying to levies a pre-closure charge.</p>
                                 </div>
                             </div>
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                                     <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                        <img src={caricon} alt="drawer" />
+                                        <img src={pay} alt="drawer" />
                                     </div>
                                 </div>
                                 <div className="w-10/12">
                                     <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Foreclosure</h4>
-                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> As the car acts as a collateral in car loan, if you were to default on your car loan, your car will be repossessed by the bank and put up for auction to compensate for the outstanding dues. This procedure is called car loan foreclosure.</p>
+                                    <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> You Can foreclose your personal loan after 3 months.Loan foreclosure is the full repayment of your remaining loan amount in one single payment instead of paying multiple EMIs. If you have surplus funds that you would like to use to repay your ongoing personal loan, you can opt for the personal loan foreclosure facility.</p>
                                 </div>
                             </div>
                         </div>
@@ -144,6 +153,65 @@ const Carloan = () => {
             </dh-component>
             {/* Code block ends */}
         </div>
+        
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <caption class=" font-poppins p-5 text-lg font-semibold text-left text-gray-900 bg-gray-200 dark:text-white dark:bg-gray-800">
+          Personal Loan Eligible Amount.
+            {/* <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">Expected Eligible Loan amount for Diifferent Salaries.</p> */}
+        </caption>
+        <thead class="my-5 text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                   Monthly Salary
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Loan amount
+                </th>
+           
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    RS. 70,000
+                </th>
+                <td class="px-6 py-4">
+                    Rs. 16.20 Lakhs
+                </td>
+      
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    RS. 80,000
+                </th>
+                <td class="px-6 py-4">
+                    Rs. 18.90 Lakhs
+                </td>
+      
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    RS. 90,000
+                </th>
+                <td class="px-6 py-4">
+                    Rs. 21.30 Lakhs
+                </td>
+      
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    RS. 1,00,000
+                </th>
+                <td class="px-6 py-4">
+                    Rs. 23.63 Lakhs
+                </td>
+      
+            </tr>
+        </tbody>
+    </table>
+</div>
+
         {/* <section className={layout.section} id="EMI">
     <div className={layout.sectionInfo}>
       <h2 className={`${styles.heading2} text-transparent text-black`}>
@@ -171,174 +239,141 @@ minimum 2 years.
       <img src={carloan2} alt="billing" className="w-[80%] h-[80%]  rounded-lg" />
     </div>
   </section> */}
-        <div className="flex flex-col items-center py-[6px] px-4 bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-[10px] mb-2 animate-jump-in animate-once animate-delay-500">
-            <img src={caricon} alt="discount" className="w-[32px] h-[32px]" />
-            <p className={`${styles.paragraph} ml-2`}>
-                <span className="text-white ">Your Dream Car</span> <span className="  text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
 
-                    is Our {" "}</span>
-                <span className="text-white">Goal</span>
+        <div className="my-20 flex flex-col items-center py-[6px] px-4 bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-[10px] mb-2 animate-jump-in animate-once animate-delay-500">
+            <img src={pay} alt="discount" className="w-[32px] h-[32px]" />
+            <p className={`${styles.paragraph} ml-2`}>
+                <span className="text-white ">Personal Loan</span> <span className="  text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
+
+                    at Fingertips. {" "}</span>
+                {/* <span className="text-white">Goal</span> */}
             </p>
         </div>
         <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
             <div className="flex-2 flex flex-col">
-                <h2 class="font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Eligibility Criteria for Car Loans</h2>
-                <span className='my-2 text-black-600' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a car loan</span>
-                <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400" style={{ color: "#141414" }}>
-
+                <h2 class="font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Eligibility Criteria for Personal Loans</h2>
+                <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Personal loan</span>
+                <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
                     <li>
-                        Should be aged between 18 years and 75 years
+                        Should be aged between 21 – 68 years.
                     </li>
                     <li>
-                        Should have a minimum net monthly income of Rs. 20,000
-                    </li>
-
-
-                    <li>
-                        Must be a salaried or self-employed individual
+                    Salaried, Business owner, Self-employed professional, Retired, Student & Home maker
                     </li>
                     <li>
-                        Employment history of at least one year with current employement
+                    Employment Status	Employed/In-business for at least 2 – 5 years.
                     </li>
 
+                    <li>
+                    Work Experience	1 to 3 years & Above
+                    </li>
+                    <li>
+                    Minimum Net Monthly Income:Rs.5,000 and above
+                    </li>
+                    <li>
+                    Maximum EMI	Up to 65% of Income
+                    </li>
                 </ul>
             </div>
         </section>
 
         <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
             <div className="flex-2 flex flex-col">
-                <h2 class=" font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>What are the documents required for a car loan application?</h2>
-                <span>These are the most common documents requested by most banks to process your car loan application:</span>
-                <ul class="w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400" style={{ color: "#141414" }}>
+                <h2 class=" font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>What are the documents required for a Personal loan application?</h2>
+                <span className="font-poppins">These are the most common documents requested by most banks to process your Personal loan application:</span>
+                <ul class=" font-poppins w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400" style={{ color: "#141414" }}>
 
                     <li>
-                        Application form
+                    Duly filled application form
                     </li>
                     <li>
                         KYC documents
                     </li>
-
-
                     <li>
-                        Photographs
+                    Date of Birth Proof
                     </li>
                     <li>
-                        Identity Proof
+                    Latest 2 months pay slip
                     </li>
                     <li>
                         Address Proof
                     </li>
                     <li>
-                        Bank Statements
+                    Self-attestation of borrowers on all documents
                     </li>
 
-                    <li>
-                        Income Proof
-                    </li>
-                    <li>
-                        Latest Salary Slip / Form 16
-                    </li>
-                    <li>
-                        Income Tax returns of 2 previous financial years along with complete financial/audit report
-                    </li>
-                    <li>
-                        Business Stability proof / Ownership proof
-                    </li>
-                    <li>
-                        Employment Stability Proof
-                    </li>
-                    <li>
-                        Partnership deed and Letter signed by all partners authorising one partner
-                    </li>
-                    <li>Companies and Societies: Resolution by Board of Directors (or such managing body)
-                    </li>
-                    <li>
-                        Memorandum and Articles of Association
-                    </li>
+                 
                 </ul>
             </div>
         </section>
         <div class="relative overflow-x-scroll shadow-md sm:rounded-lg">
         <div>
-        <h1 class="font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Car Loans – A Snapshot</h1>
+        <h1 class="font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Personal Loan – Overview</h1>
         </div>
-            <table class="overflow-x-scroll w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <table class=" w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
 
-                <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
+                <thead class="font-poppins text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
-                        <th scope="col" className="px-6 py-3 bg-gray-50 dark:bg-gray-800">
-                        Features
+                        <th scope="col" className="px-6 py-3">
+                        CIBIL Ratings
                         </th>
                         <th scope="col" className="px-6 py-3">
-                        New Car Loan
+                        Credit Score
                         </th>
                         <th  class="px-6 py-3">
-                        Used Car Loan
+                        Chances of being approved for a Personal Loan
                         </th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className="font-poppins">
                     <tr className="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                        Interest rates
+                        Poor
                         </th>
                         <td className="px-6 py-4">
-                        7.25% - 14.00%
+                        Less than 600
                         </td>
                         <td className="px-6 py-4">
                            	
- 10.00% - 18.00%
+                        You may not qualify for a personal loan
                         </td>
                     </tr>
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                        Loan tenure
+                        Average
                         </th>
                         <td className="px-6 py-4">
-                        Up to 7 years
+                        Between 600 and 750
                         </td>
                         <td className="px-6 py-4">
                            	
-	
-                        Up to 5 years
+                        Loan may be approved, but at a high interest rate
                         </td>
                     </tr>
                     <tr className="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                        Processing fee
+                        Good
                         </th>
                         <td className="px-6 py-4">
-                        Starting from 0.20% of the loan amount
+                        Over 750
                         </td>
                         <td className="px-6 py-4">
-                           	
-                        Up to 2% of the loan amount
+                    	Loan is likely to be approved with a lower interest rate
                         </td>
                     </tr>
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                        Loan amount
+                        Excellent
                         </th>
                         <td className="px-6 py-4">
-                        Up to 100% of the ex-showroom price
+                        Between 800 and 900
                         </td>
                         <td className="px-6 py-4">
                            	
-                        Up to 80% of the car’s valuation
+                        Loan with a low interest rate, faster approval, larger loan amount
                         </td>
-                    </tr>
-
-                    <tr class="border-b border-gray-200 dark:border-gray-700">
-                        <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                        Prepayment charges
-                        </th>
-                        <td class="px-6 py-4">
-                        	
-0.5% - 5% on principal outstanding or interest outstanding for unexpired period of loan, whichever is lower
-                        </td>
-                    
                     </tr>
 
               
@@ -348,16 +383,17 @@ minimum 2 years.
         
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <div>
-        <h1 class="my-10 font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Car Loan Interest Rates at Leading Banks</h1>
+        <h1 class="my-10 font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Personal Loan Interest Rates at Leading Banks</h1>
         </div>
-            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
+        <table class="font-poppins w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
+
+<thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
-                        <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                        <th scope="col" class="px-6 py-3">
                             Bank Name
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            Car Loan Interest Rate
+                            Personal Loan Interest Rate
                         </th>
 
                     </tr>
@@ -369,7 +405,7 @@ minimum 2 years.
                         </th>
                         <td class="px-6 py-4">
                            	
-8.50% - 11.25%
+                        12% p.a.- 21% p.a.
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -377,7 +413,7 @@ minimum 2 years.
                         Aditya Birla Finance
                         </th>
                         <td class="px-6 py-4">
-                        9.20%-11.25%
+                        14% p.a. -26% p.a.
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -385,7 +421,7 @@ minimum 2 years.
                             Yes Bank
                         </th>
                         <td class="px-6 py-4">
-                        9.80% – 12.40%
+                        10% p.a. onwards - 24% p.a.
                         </td>
                     </tr>
 
@@ -394,7 +430,7 @@ minimum 2 years.
                         HDFC Bank
                         </th>
                         <td class="px-6 py-4">
-                        8.80% – 10.00%
+                        10.5% p.a. - 21.00% p.a.
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -402,7 +438,7 @@ minimum 2 years.
                         IDFC FIRST Bank
                         </th>
                         <td class="px-6 py-4">
-                        9.0% to 10.5%
+                        10.49% p.a. onwards
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -410,7 +446,7 @@ minimum 2 years.
                         Kotak Mahindra Bank
                         </th>
                         <td class="px-6 py-4">
-                        8.12% to 23.54%
+                        10.99% and above
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -418,7 +454,7 @@ minimum 2 years.
                         TATA Capital Finance 
                         </th>
                         <td class="px-6 py-4">
-                        7.50%
+                        10.99% onwards
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -426,7 +462,7 @@ minimum 2 years.
                         ICICI Bank
                         </th>
                         <td class="px-6 py-4">
-                        8.82% - 12.75%
+                        10.75% p.a. - 19.00% p.a.
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -434,7 +470,7 @@ minimum 2 years.
                         Bajaj Finserv
                         </th>
                         <td class="px-6 py-4">
-                        10.50% to 22%
+                        7.77% p.a. onwards
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -442,7 +478,7 @@ minimum 2 years.
                         Finnable
                         </th>
                         <td class="px-6 py-4">
-                        16 to 28%
+                        16.99% to 28.99%
                         </td>
                     </tr>
                     <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -450,7 +486,7 @@ minimum 2 years.
                         HDB Financial Services
                         </th>
                         <td class="px-6 py-4">
-                        8.00% to 26.00%
+                        12.00% to 31.00%
                         </td>
                     </tr>
 
@@ -459,7 +495,7 @@ minimum 2 years.
                            Indusland Bank
                         </th>
                         <td class="px-6 py-4">
-                        7% - 14%
+                        10.49% p.a. - 26.5% p.a.
                         </td>
                     </tr>
                 </tbody>
@@ -472,6 +508,8 @@ minimum 2 years.
 
         <Footer />
     </>
+
+  )
 }
 
-export default Carloan
+export default Personalloan;

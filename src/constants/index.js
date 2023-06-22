@@ -11,10 +11,7 @@ export const navLinks = [
     title: "Credit Cards",
   },
   
-  // {
-  //   id: "Partners",
-  //   title: "Loans",
-  // },
+
   {
     id: "Contact",
     title: "Contact Us",
@@ -123,25 +120,18 @@ export const footerLinks = [
   {
     title: "Useful Links",
     links: [
+
       {
         name: "EMI Calculator",
         link: "https://finages-emi.netlify.app",
       },
       {
-        name: "How it Works",
-        link: "#",
+        name: "Car Loan",
+        link: "/Carloan",
       },
       {
-        name: "Create",
-        link: "#",
-      },
-      {
-        name: "Explore",
-        link: "#",
-      },
-      {
-        name: "Terms & Services",
-        link: "#",
+        name: "Personal Loan",
+        link: "/Personal",
       },
     ],
   },
