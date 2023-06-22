@@ -19,7 +19,7 @@ const Personalloan = () => {
    
         <section id="product" className={layout.sectionReverse}>
             <div className={layout.sectionImgReverse}>
-                <img src={pl1} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-lg" />
+                <img src={pl1} alt="billing" className="animate-fade-up animate-once w-[100%] h-[100%] relative z-[5] rounded-lg" />
 
                 {/* gradient start */}
                 <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -28,10 +28,10 @@ const Personalloan = () => {
             </div>
 
             <div className={layout.sectionInfo}>
-                <h4 className={`font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[65.8px] w-full  text-black`}>
+                <h4 className={`animate-fade-up animate-once font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[65.8px] w-full  text-black`}>
                     What is Personal Loan ?
                 </h4>
-                <p className={` ${styles.paragraph} max-w-[470px] mt-5 text-black`}>
+                <p className={` ${styles.paragraph} animate-fade-up animate-once max-w-[470px] mt-5 text-black`}>
                     
 A personal loan is a type of loan that individuals can borrow from a bank, credit union, or online lender for personal use. Unlike specific-purpose loans (such as auto loans or mortgages), personal loans can be used for a variety of purposes, such as debt consolidation, home improvements, medical expenses, vacations, or unexpected expenses.
                 </p>

@@ -23,7 +23,7 @@ const Navbar = () => {
     <a href="/">
 
     
-      <img src={finages_logo} alt="Finages" className="w-[180px] h-[40px]" />
+      <img src={finages_logo} alt="Finages" className="w-[150px] h-[40px]" />
       </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 ">
         {navLinks.map((nav, index) => (

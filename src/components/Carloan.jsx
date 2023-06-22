@@ -17,7 +17,7 @@ const Carloan = () => {
     return <>
         <section id="product" className={layout.sectionReverse}>
             <div className={layout.sectionImgReverse}>
-                <img src={carloan} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-lg" />
+                <img src={carloan} alt="billing" className="animate-fade-up animate-once w-[100%] h-[100%] relative z-[5] rounded-lg" />
 
                 {/* gradient start */}
                 <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -26,10 +26,10 @@ const Carloan = () => {
             </div>
 
             <div className={layout.sectionInfo}>
-                <h3 className={`font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[76.8px] leading-[65.8px] w-full text-black`}>
+                <h3 className={`animate-fade-up animate-once font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[76.8px] leading-[65.8px] w-full text-black`}>
                     What is Car Loan ?
                 </h3>
-                <p className={` ${styles.paragraph} max-w-[470px] mt-5 text-black`}>
+                <p className={` ${styles.paragraph} animate-fade-up animate-once max-w-[470px] mt-5 text-black`}>
                     A car loan is nothing but the funds that one borrows from a lender for the sole purpose of purchasing a car of his or her choice. Lenders like banks and Non-Banking Financial Companies (NBFCs) offer auto finance to consumers in the form of new and used car loans.
                 </p>
                 <a href="https://finages-emi.netlify.app">
