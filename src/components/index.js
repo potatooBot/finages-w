@@ -17,8 +17,10 @@ import Career from "./Career";
 import Carloan from "./Carloan";
 import Personalloan from "./Personalloan";
 import Homeloan from "./Homeloan";
+import Businessloan from "./Businessloan";
 export {
   Carloan,
+  Businessloan,
   Homeloan,
 Personalloan,
   Career,

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { apple, bill, emi, google,hl,homeicon, discount, carloan, rupicon, rupee, carloan2,hand,fee,pay,time, carloan3, caricon } from "../assets";
+import { apple, bill, emi, google,bu1, discount, carloan, businessloan, rupicon, rupee, carloan2,hand,fee,pay,time, carloan3, caricon } from "../assets";
 import Footer from './Footer';
 import CardDeal from './CardDeal';
 
@@ -13,13 +13,13 @@ import {
     Typography,
     Button
 } from "@material-tailwind/react";
-const Homeloan = () => {
+const Businessloan = () => {
   return (
     <>
    
     <section id="product" className={layout.sectionReverse}>
         <div className={layout.sectionImgReverse}>
-            <img src={hl} alt="billing" className="animate-fade-up animate-once w-[100%] h-[100%] relative z-[5] rounded-lg" />
+            <img src={businessloan} alt="billing" className="animate-fade-up animate-once w-[100%] h-[100%] relative z-[5] rounded-lg" />
 
             {/* gradient start */}
             <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -29,15 +29,15 @@ const Homeloan = () => {
 
         <div className={layout.sectionInfo}>
             <h4 className={`animate-fade-up animate-once font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[65.8px] w-full  text-black`}>
-                What is Home Loan ?
+                What is Business Loan ?
             </h4>
             <p className={` ${styles.paragraph} animate-fade-up animate-once max-w-[470px] mt-5 text-black`}>
 
-            A home loan is an amount an individual borrows from a financial institution such as a housing finance company to buy a new or a resale home, construct a home or renovate or extend an existing one.                
+            A business loan is a financial instrument that can be used to cover both unexpected and anticipated expenses. A business loan loan is borrowed money that businesses use to cover costs they can't afford on their own in the short term.               
             </p>
     
             <button onClick={() => window.open("/ApplyLoans","_self")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-                Apply for Home loan.
+                Apply for Business loan.
             </button>
         </div>
 
@@ -50,7 +50,7 @@ const Homeloan = () => {
                 <div>
                     <div role="contentinfo" className="flex items-center flex-col px-4">
 
-                        <h3 tabIndex={0} className="font-poppins font-semibold xs:text-[48px] text-[40px]">What are the features of a Home loan?</h3>
+                        <h3 tabIndex={0} className="font-poppins font-semibold xs:text-[48px] text-[40px]">What are the features of a Business loan?</h3>
                     </div>
                     <div tabIndex={0} aria-label="group of cards" className="focus:outline-none mt-20 flex flex-wrap justify-center gap-10 px-4">
                         <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -61,10 +61,10 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan amount</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan amount</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">
 
-                                Banks and NBFCs usually offer Home loans for amounts ranging from Rs 10,000 to Rs 40 lakh. However, the Home loan amount you are eligible for would primarily depend on your loan repayment capacity. Banks and NBFCs evaluate your repayment capacity primarily on the basis of your monthly disposable income.
+                                Indian banks offer business loans with varying loan amounts depending on several factors, including the borrower's financial strength, business requirements, and the bank's lending policies.
                                 </p>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan tenure</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">When we talk about the maximum tenure for a home loan, it refers to the loan tenure or the duration at which you and the lender decide on the loan repayment. The loan is repaid through equated monthly instalments (EMI) and can spread to a maximum tenure of 30 years. </p>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan tenure</h4>
+                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">The tenure, or duration, of a business loan can vary depending on the lender, the type of loan, and the specific terms and conditions agreed upon between the lender and the borrower. Typically, business loan tenures range from a few months to several years.</p>
                             </div>
                         </div>
                         <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -88,8 +88,8 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan interest rate</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Home loan interest rate is the percentage of the principal amount charged by the lender to the borrower for using the principal amount. The interest rate charged by banks and non-financial institutions determine the cost of your home loan.</p>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan interest rate</h4>
+                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Business Loan Interest Rates offered by Banks/NBFCs starts at 16% p.a. for the loan amount up to Rs. 2 crore that can be repaid with maximum repayment tenure of up to 5 years (may exceed as per business requirements). No collateral/security is required to be submitted by the applicants for the unsecured business loans offered up to Rs. 2 crore by the financial institutions.</p>
                             </div>
                         </div>
                         <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -100,8 +100,8 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan EMI</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A Home loan EMI calculator can help you accurately determine your EMIs. You just need to select the loan amount, rate of interest and tenure, to get the exact EMI payable for your Home loan.</p>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan EMI</h4>
+                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A Business loan EMI calculator can help you accurately determine your EMIs. You just need to select the loan amount, rate of interest and tenure, to get the exact EMI payable for your Business loan.</p>
                              
                                 {/* <h5 style={{color:"black"}}>EMI = [PxRX(1+R)^N]/[(1+R)^N-1], wherein P represents the loan amount, R is the interest rate charged per month, and N indicates the total number of monthly installments</h5> */}
                          <button onClick={() => window.open("https://finages-emi.netlify.app")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
@@ -120,7 +120,7 @@ const Homeloan = () => {
                             </div>
                             <div className="w-10/12">
                                 <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Processing fee</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">This is a one-time non-refundable fee that is to be paid to the home loan provider after the loan application has been approved. The processing charge varies depending on the bank and the loan scheme you are applying for. </p>
+                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">This is a one-time non-refundable fee that is to be paid to the Business loan provider after the loan application has been approved. The processing charge is upto 6%. </p>
                             </div>
                         </div>
                         <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -132,7 +132,7 @@ const Homeloan = () => {
                             </div>
                             <div className="w-10/12">
                                 <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Prepayment/Preclosure</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">  Prepayment penalty is the fee you will have to pay the lender if you plan on repaying your home loan before the completion of the loan tenure.</p>
+                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">  Prepayment penalty is the fee you will have to pay the lender if you plan on repaying your Business loan before the completion of the loan tenure.</p>
                             </div>
                         </div>
                         <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
@@ -144,21 +144,10 @@ const Homeloan = () => {
                             </div>
                             <div className="w-10/12">
                                 <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Foreclosure</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A foreclosure is simply the closing of a Home Loan by paying off the entire amount borrowed in one lump sum amount. It is part of the regular Home Loan process and allows you to pay off the borrowed amount before the EMI schedule.</p>
+                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A foreclosure is simply the closing of a Business Loan by paying off the entire amount borrowed in one lump sum amount. It is part of the regular Business Loan process and allows you to pay off the borrowed amount before the EMI schedule.</p>
                             </div>
                         </div>
-                        <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
-                            <div className="w-20 h-20 relative mr-5">
-                                <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                                <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <img src={pay} alt="drawer" />
-                                </div>
-                            </div>
-                            <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Collateral</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A loan used to purchase or maintain a home,land or other types of real estate ,secured by property itself.</p>
-                            </div>
-                        </div>
+             
                     </div>
                 </div>
             </section>
@@ -166,11 +155,11 @@ const Homeloan = () => {
         {/* Code block ends */}
     </div>
     
-<div class="relative overflow-x-scroll shadow-md sm:rounded-lg">
+{/* <div class="relative overflow-x-scroll shadow-md sm:rounded-lg">
 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
     <caption class=" font-poppins p-5 text-lg font-semibold text-left text-gray-900 bg-gray-200 dark:text-white dark:bg-gray-800">
     Fixed Interest Rates vs Floating Interest Rates – Which is better?
-        {/* <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">Expected Eligible Loan amount for Diifferent Salaries.</p> */}
+        <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">Expected Eligible Loan amount for Diifferent Salaries.</p>
     </caption>
     <thead class="my-5 text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
         <tr>
@@ -222,7 +211,7 @@ const Homeloan = () => {
         </tr>
     </tbody>
 </table>
-</div>
+</div> */}
 
     {/* <section className={layout.section} id="EMI">
 <div className={layout.sectionInfo}>
@@ -253,90 +242,83 @@ minimum 2 years.
 </section> */}
 <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
         <div className="flex-2 flex flex-col">
-            <h2 class="font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Types of Home Loan</h2>
-            {/* <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span> */}
+            <h2 class="font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Types of Business Loan</h2>
+            {/* <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Business loan</span> */}
             <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
                 <li>
-                <span style={{color:"orange"}}> Home purchase loan: </span>
-                Taken to purchase a home.
+                <span style={{color:"orange"}}>Working Capital Loan </span>
+                Working capital loans are used by individuals, entrepreneurs, startups, and MSMEs to meet their daily business requirements and for various business expansion services, enhancing business cash flow, purchasing raw materials, addition in inventory/stock, paying salaries, hiring staff, etc.
                 </li>
                 <li>
-                <span style={{color:"orange"}}> Home improvement loan: </span>
-                 Taken to repair/renovate a home.
-                </li>
-                <li>
-                <span style={{color:"orange"}}>
-                Home construction loan:
-                </span>  Taken to build a new house.
+                <span style={{color:"orange"}}> Term Loan (Short & Long-term Loan) </span>
+                Term loan is a loan that is required to be repaid in regular payments over a set period of time. The term loan is categorized into short-term, intermediate-term and long-term loans.
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
-                Land purchase loan: 
-                </span>  Taken to buy a plot of land for constructing his/her own house.
-                </li>
-                <li>
-                <span style={{color:"orange"}}> Home extension loan: </span>
-                 Taken to add another floor. room, garage, bathroom, or kitchen, etc.
+               Letter of Credit  </span>  
+                Letter of credit is a type of credit limit used majorly in trading businesses in which the bank or lender offers a funding guarantee to enterprises that deal in international trade. Letter of credit can be utilized for both import and export purposes by entrepreneurs. 
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
-                Joint home loan: 
+                Loans under Govt. Schemes
+                </span>  The Government of India has initiated various loan schemes for individuals, MSMEs, women entrepreneurs, and other entities engaged in trading, services, and manufacturing sectors. The loans under government schemes are offered by various financial institutions, such as Private and Public Sector Banks, NBFCs, Regional Rural Banks (RRBs), Micro Finance Institutions (MFIs), Small Finance Banks (SFBs), etc.
+                </li>
+                <li>
+                <span style={{color:"orange"}}> Bill Discounting: </span>
+                Bill or Invoice Discounting is a funding facility in which the seller gets an amount in advance at discounted rates from the lender.
+                </li>
+                <li>
+                <span style={{color:"orange"}}>
+                Equipment Finance or Machinery Loan
                 </span>  Taken by two or more people, for instance. spouses.
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
-                Home loan balance transfer :
-                </span>  Taken to buy a plot of land for constructing his/her own house.
+                Point-of-Sale (POS) Loans :
+                </span> POS Loans or Merchant Cash Advance is a mechanism in which a business owner running an enterprise pays a lump sum amount in advance to suppliers through his/her daily or future credit or debit card transactions. Several times, merchants of SMEs experience a short-term cash crunch.
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
-                Top-up home loan:
-                </span>   Allows you to borrow funds over and above the outstanding loan amount at nominal rates and for any purpose.
+                Overdraft Facility
+                </span>   Overdraft facility is a funding type offered by a bank to its account holder to withdraw cash from his/her account even if the account balance is zero.
                 </li>
           
             </ul>
         </div>
     </section>
     <div className="my-20 flex flex-col items-center py-[6px] px-4 bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-[10px] mb-2 animate-jump-in animate-once animate-delay-500">
-        <img src={homeicon} alt="discount" className="w-[32px] h-[32px]" />
+        <img src={bu1} alt="discount" className="w-[32px] h-[32px]" />
         <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white "> Perfect Home Loan</span> <span className="  text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
+            <span className="text-white "> Start your dream</span> <span className="  text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
 
-                for a Perfect Home. {" "}</span>
+            Business with us. {" "}</span>
             {/* <span className="text-white">Goal</span> */}
         </p>
     </div>
     <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
         <div className="flex-2 flex flex-col">
-            <h2 class="font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Eligibility Criteria for Home Loans</h2>
-            <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span>
+            <h2 class="font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Eligibility Criteria for Business Loans</h2>
+            <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Business loan</span>
             <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
                 <li>
-                Minimum Age: 18 years and Maximum Age: 70 years
+                The business should be operating for at least two years at the time of applying for a loan.
                 </li>
                 <li>
-                The applicant must be (any one):
-Resident Indian,
-Non-Resident India (NRI),
-Person of Indian Origin (PIO).
+                Self-employed people, professionals such as doctors and CAs, and proprietorship concerns can also apply.
                 </li>
                 <li>
-                The applicant can be (any one):
-Salaried,
-Self-employed.
+                Charitable organisations, NGOs, and trusts are not eligible for a business loan.
                 </li>
 
                 <li>
-                At least Rs.5-6 lakh depending on the type of employment
+                The applicant should have a credit score, or CIBIL, score of 675 and above.
                 </li>
                 <li>
-                A good credit score of at least 750 or more obtained from a recognised credit bureau
+                The business should not fall under any list of blacklisted businesses.
                 </li>
                 <li>
                
-               The applicant must have (any one):
-A permanent residence,
-A rented residence where he/she has resided for at least a year prior to applying for a loan.
+                The office location should not be on any negative list.
                 </li>
             </ul>
         </div>
@@ -344,8 +326,8 @@ A rented residence where he/she has resided for at least a year prior to applyin
 
     <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
         <div className="flex-2 flex flex-col">
-            <h2 class=" font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>What are the documents required for a Home loan application?</h2>
-            <span className="font-poppins">These are the most common documents requested by most banks to process your Home loan application:</span>
+            <h2 class=" font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>What are the documents required for a Business loan application?</h2>
+            <span className="font-poppins">These are the most common documents requested by most banks to process your Business loan application:</span>
             <ul class=" font-poppins w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400" style={{ color: "#141414" }}>
 
                 <li>
@@ -358,16 +340,19 @@ A rented residence where he/she has resided for at least a year prior to applyin
                 Income Tax Returns for the last 3 years	Salary Slips for the last three months
                 </li>
                 <li>
-                    Address Proof
+                Signed copy of standard terms (term loan facility)
                 </li>
                 <li>
-                Driving License
+                GST Registration.
                 </li>
                 <li>
-                TDS Certificate
+                Proof of business registration
                 </li>
                 <li>
-                Self-attestation of borrowers on all documents
+                Deed copy and company PAN Card copy in the case of partnerships
+                </li>
+                <li>
+                Additional document(s) may be required for credit assessment and processing of loan request
                 </li>
 
              
@@ -376,7 +361,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
     </section>
     {/* <div class="relative overflow-x shadow-md sm:rounded-lg">
     <div>
-    <h1 class="font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Home Loan – Overview</h1>
+    <h1 class="font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Business Loan – Overview</h1>
     </div>
         <table class=" overflow-x-scroll w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
 
@@ -389,7 +374,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     Credit Score
                     </th>
                     <th  class="px-6 py-3">
-                    Chances of being approved for a Home Loan
+                    Chances of being approved for a Business Loan
                     </th>
                 </tr>
             </thead>
@@ -403,7 +388,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     </td>
                     <td className="px-6 py-4">
                            
-                    You may not qualify for a Home loan
+                    You may not qualify for a Business loan
                     </td>
                 </tr>
 
@@ -451,7 +436,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
     
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
     <div>
-    <h1 class="my-10 font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Home Loan Interest Rates at Leading Banks</h1>
+    <h1 class="my-10 font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Business Loan Interest Rates at Leading Banks</h1>
     </div>
     <table class="font-poppins w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
 
@@ -461,7 +446,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                         Bank Name
                     </th>
                     <th scope="col" class="px-6 py-3">
-                        Home Loan Interest Rate
+                        Business Loan Interest Rate
                     </th>
 
                 </tr>
@@ -473,7 +458,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     </th>
                     <td class="px-6 py-4">
                            
-                    8.75% p.a. onwards
+                    14.95%-19.20 p.a.
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -481,7 +466,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     Aditya Birla Finance
                     </th>
                     <td class="px-6 py-4">
-                    7.00% onwards
+                    13%- 16% p.a .
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -489,7 +474,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                         Yes Bank
                     </th>
                     <td class="px-6 py-4">
-                    9.40% to 10.25%
+                    13.40% to 16.25%
                     </td>
                 </tr>
 
@@ -498,7 +483,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     HDFC Bank
                     </th>
                     <td class="px-6 py-4">
-                    8.60%* onwards
+                    10%- 16.25% p.a
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -506,7 +491,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     IDFC FIRST Bank
                     </th>
                     <td class="px-6 py-4">
-                    8.85% p.a onwards
+                    10.50% p.a onwards
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -514,7 +499,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     Kotak Mahindra Bank
                     </th>
                     <td class="px-6 py-4">
-                    8.85% p.a. to 9.40% p.a.
+                    16% p.a. to 26% p.a.
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -522,7 +507,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     TATA Capital Finance 
                     </th>
                     <td class="px-6 py-4">
-                    8.60%  onwards
+                    15%  onwards
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -530,7 +515,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     ICICI Bank
                     </th>
                     <td class="px-6 py-4">
-                    6.75% onwards
+                    18% p.a
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -538,7 +523,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     Bajaj Finserv
                     </th>
                     <td class="px-6 py-4">
-                    8.50%* p.a onwards
+                    9.75% p.a. to 30% p.a.
                     </td>
                 </tr>
                 <tr class="border-b border-gray-200 dark:border-gray-700">
@@ -554,7 +539,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     HDB Financial Services
                     </th>
                     <td class="px-6 py-4">
-                    11%-20% p.a.
+                    Upto 36%
                     </td>
                 </tr>
 
@@ -563,7 +548,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
                        Indusland Bank
                     </th>
                     <td class="px-6 py-4">
-                    8.40% - 9.75%
+                    13% to 22%
                     </td>
                 </tr>
             </tbody>
@@ -579,4 +564,4 @@ A rented residence where he/she has resided for at least a year prior to applyin
   )
 }
 
-export default Homeloan
+export default Businessloan

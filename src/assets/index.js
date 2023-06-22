@@ -58,10 +58,14 @@ import pay from "./pay.png"
 import pl1 from "./pl1.png"
 import hl from "./hl.png";
 import homeicon from "./homeicon.png"
+import businessloan from "./businessloan.png"
+import bu1 from "./bu1.png" 
 export {
+  bu1,
   carloan,
   pl1,
   homeicon,
+  businessloan,
   hl,
 hand,pay,
   fee,time,
