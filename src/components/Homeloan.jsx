@@ -155,7 +155,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Mortgage</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Collateral</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A loan used to purchase or maintain a home,land or other types of real estate ,secured by property itself.</p>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ const Homeloan = () => {
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             Interest rates remain constant
             </th>
-            <td class="px-6 py-4">
+            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             Interest rate can change depending on the fluctuation in the market
             </td>
   
@@ -197,7 +197,7 @@ const Homeloan = () => {
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             Your EMI payable will remain the same throughout the repayment tenure
             </th>
-            <td class="px-6 py-4">
+            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             Your EMI payable is likely to change during the repayment tenure.
             </td>
   
@@ -206,7 +206,7 @@ const Homeloan = () => {
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             You are likely to be charged a prepayment charge if you prepay your loan
             </th>
-            <td class="px-6 py-4">
+            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             You may not be charged a prepayment charge if you prepay your loan
             </td>
   
@@ -215,7 +215,7 @@ const Homeloan = () => {
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             Not linked to MCLR
             </th>
-            <td class="px-6 py-4">
+            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             Linked to MCLR
             </td>
   
@@ -257,10 +257,12 @@ minimum 2 years.
             {/* <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span> */}
             <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
                 <li>
-                Home purchase loan: Taken to purchase a home.
+                <span style={{color:"orange"}}> Home purchase loan: </span>
+                Taken to purchase a home.
                 </li>
                 <li>
-                Home improvement loan: Taken to repair/renovate a home.
+                <span style={{color:"orange"}}> Home improvement loan: </span>
+                 Taken to repair/renovate a home.
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
@@ -273,7 +275,8 @@ minimum 2 years.
                 </span>  Taken to buy a plot of land for constructing his/her own house.
                 </li>
                 <li>
-                Home extension loan: Taken to add another floor. room, garage, bathroom, or kitchen, etc.
+                <span style={{color:"orange"}}> Home extension loan: </span>
+                 Taken to add another floor. room, garage, bathroom, or kitchen, etc.
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
