@@ -14,7 +14,7 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={`${styles.heading2}  text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
-      Loan with ease  <br className="sm:block hidden" />guaranteed with Finaages! 
+      Loan with ease  <br className="sm:block hidden" />guaranted with Finages! 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
       Unlock the door to financial flexibility with easy access to credit card loans and a wide range of loan options tailored to your needs.

@@ -64,7 +64,7 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "Growth Opputunity",
+    title: "Growth Oppurtunity",
     content:
       "With Finages Nnrture your financial potential and unlock boundless growth opportunities in the world of finance.",
   },
