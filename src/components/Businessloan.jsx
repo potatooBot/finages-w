@@ -61,7 +61,7 @@ const Businessloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan amount</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Business loan amount</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">
 
                                 Indian banks offer business loans with varying loan amounts depending on several factors, including the borrower's financial strength, business requirements, and the bank's lending policies.
@@ -76,7 +76,7 @@ const Businessloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan tenure</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Business loan tenure</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">The tenure, or duration, of a business loan can vary depending on the lender, the type of loan, and the specific terms and conditions agreed upon between the lender and the borrower. Typically, business loan tenures range from a few months to several years.</p>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const Businessloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan interest rate</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Business loan interest rate</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Business Loan Interest Rates offered by Banks/NBFCs starts at 16% p.a. for the loan amount up to Rs. 2 crore that can be repaid with maximum repayment tenure of up to 5 years (may exceed as per business requirements). No collateral/security is required to be submitted by the applicants for the unsecured business loans offered up to Rs. 2 crore by the financial institutions.</p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const Businessloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Business loan EMI</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Business loan EMI</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A Business loan EMI calculator can help you accurately determine your EMIs. You just need to select the loan amount, rate of interest and tenure, to get the exact EMI payable for your Business loan.</p>
                              
                                 {/* <h5 style={{color:"black"}}>EMI = [PxRX(1+R)^N]/[(1+R)^N-1], wherein P represents the loan amount, R is the interest rate charged per month, and N indicates the total number of monthly installments</h5> */}
@@ -119,7 +119,7 @@ const Businessloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Processing fee</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Processing fee</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">This is a one-time non-refundable fee that is to be paid to the Business loan provider after the loan application has been approved. The processing charge is upto 6%. </p>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ const Businessloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Prepayment/Preclosure</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Prepayment/Preclosure</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">  Prepayment penalty is the fee you will have to pay the lender if you plan on repaying your Business loan before the completion of the loan tenure.</p>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ const Businessloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Foreclosure</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Foreclosure</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A foreclosure is simply the closing of a Business Loan by paying off the entire amount borrowed in one lump sum amount. It is part of the regular Business Loan process and allows you to pay off the borrowed amount before the EMI schedule.</p>
                             </div>
                         </div>

@@ -59,7 +59,7 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan amount</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Car loan amount</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">Banks offer a maximum car loan of up to 85-100% of the on-road price/ex-showroom price of the car. If you pay a high down-payment on your chosen car, then the cost of your car loan will be less.
                                     </p>
                                 </div>
@@ -72,7 +72,7 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan tenure</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Car loan tenure</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">You can opt for a short or long car loan tenure ranging from 1 to 7 years. A short loan tenure will ensure you repay your loan in a short period of time but will have high EMIs whereas a long tenure will have low EMIs but you will end up paying more in interest payments. </p>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan interest rate</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Car loan interest rate</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> In order to repay your car loan, you have to pay interest on the principal loan amount every month over the chosen loan tenure. The interest rate of a car loan will vary depending on the bank you choose. Visit a third-party website to compare various car loan offers across the top banks and choose one that offers the lowest interest rate.</p>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Car loan EMI</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Car loan EMI</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Car loan is repaid to the bank in Equated Monthly Installments (EMIs). In order to get instant and accurate results of EMI calculation, use the online car loan EMI calculator that is available for free on the bank website or a reliable third-party website. 
                                         EMI calculation can help you find out how much your car loan will cost you monthly.</p>
                                 </div>
@@ -110,7 +110,7 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Processing fee</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Processing fee</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Banks charge a small percentage of the principal loan amount called the processing fee to process your car loan. The processing fee will be deducted at the time of disbursing the loan amount to your bank account. Some banks waiver the processing fee as a special offer.</p>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Prepayment/Preclosure</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Prepayment/Preclosure</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Banks allow borrowers to prepay a part of the car loan after 12 EMI payments have been made. For making this prepayment, you will have to pay a penalty fee which is a percentage of the prepayment amount called the prepayment fee. You can also choose to pay the loan amount in full before the end of its loan tenure called preclosure.</p>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ const Carloan = () => {
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Foreclosure</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Foreclosure</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> As the car acts as a collateral in car loan, if you were to default on your car loan, your car will be repossessed by the bank and put up for auction to compensate for the outstanding dues. This procedure is called car loan foreclosure.</p>
                                 </div>
                             </div>

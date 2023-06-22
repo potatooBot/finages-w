@@ -61,7 +61,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan amount</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Home loan amount</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">
 
                                 Banks and NBFCs usually offer Home loans for amounts ranging from Rs 10,000 to Rs 40 lakh. However, the Home loan amount you are eligible for would primarily depend on your loan repayment capacity. Banks and NBFCs evaluate your repayment capacity primarily on the basis of your monthly disposable income.
@@ -76,7 +76,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan tenure</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Home loan tenure</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">When we talk about the maximum tenure for a home loan, it refers to the loan tenure or the duration at which you and the lender decide on the loan repayment. The loan is repaid through equated monthly instalments (EMI) and can spread to a maximum tenure of 30 years. </p>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan interest rate</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Home loan interest rate</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Home loan interest rate is the percentage of the principal amount charged by the lender to the borrower for using the principal amount. The interest rate charged by banks and non-financial institutions determine the cost of your home loan.</p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Home loan EMI</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Home loan EMI</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A Home loan EMI calculator can help you accurately determine your EMIs. You just need to select the loan amount, rate of interest and tenure, to get the exact EMI payable for your Home loan.</p>
                              
                                 {/* <h5 style={{color:"black"}}>EMI = [PxRX(1+R)^N]/[(1+R)^N-1], wherein P represents the loan amount, R is the interest rate charged per month, and N indicates the total number of monthly installments</h5> */}
@@ -119,7 +119,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Processing fee</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Processing fee</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">This is a one-time non-refundable fee that is to be paid to the home loan provider after the loan application has been approved. The processing charge varies depending on the bank and the loan scheme you are applying for. </p>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Prepayment/Preclosure</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Prepayment/Preclosure</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">  Prepayment penalty is the fee you will have to pay the lender if you plan on repaying your home loan before the completion of the loan tenure.</p>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Foreclosure</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Foreclosure</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A foreclosure is simply the closing of a Home Loan by paying off the entire amount borrowed in one lump sum amount. It is part of the regular Home Loan process and allows you to pay off the borrowed amount before the EMI schedule.</p>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ const Homeloan = () => {
                                 </div>
                             </div>
                             <div className="w-10/12">
-                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Collateral</h4>
+                                <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Collateral</h4>
                                 <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A loan used to purchase or maintain a home,land or other types of real estate ,secured by property itself.</p>
                             </div>
                         </div>

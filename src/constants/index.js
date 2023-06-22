@@ -74,7 +74,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "   DUmmy dummy dummy  DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
+      "   Finages distribution service has exceeded my expectations in every way. They are responsive, efficient, and they always go the extra mile to help me achieve my goals. I would absolutely recommend them to anyone who is looking for a reliable and effective distribution partner.",
     name: "Keshav Kumar",
     title: "dummy dummy",
     img: people01,
@@ -83,7 +83,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "   DUmmy dummy dummy  DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
+      "   I highly recommend Finages Distribution Service to anyone seeking financial empowerment. Their user-friendly interface, combined with their extensive network of trusted financial partners, has made accessing loans, savings accounts, and other services a hassle-free experience.",
     name: "Keshav Kumar",
     title: "dummy dummy",
     img: people01,
@@ -91,7 +91,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "   DUmmy dummy dummy  DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
+      " I'm grateful for Finages's help in making smart financial choices. They give great advice and recommendations that have helped me make better decisions. It's like having a helpful friend who knows all about money.",
     name: "Keshav Kumar",
     title: "dummy dummy",
     img: people01,
