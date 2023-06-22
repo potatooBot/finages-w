@@ -101,19 +101,15 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Our Customers",
-    value: "380+",
+    title: "Loans disbursed in F. Y 2021-2022",
+    value: " 80373137",
   },
   {
     id: "stats-2",
-    title: "Trusted by Many Businesses",
-    value: "20+",
+    title: "Loans disbursed in F. Y 2022- 2023",
+    value: " 137732585",
   },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "₹200 Lakh+",
-  },
+
 ];
 
 export const footerLinks = [
