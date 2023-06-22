@@ -137,7 +137,7 @@ const CreditCard = () => {
     </a>
   </div>
   <h2 className={ `${styles.heading2} flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
-      Our Partners
+     Credit Card Types.
       </h2>
   <div class="container my-2 m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
   
