@@ -1,7 +1,8 @@
 import Datepicker from 'flowbite-datepicker/Datepicker';
 import { useState } from 'react';
 import { emi } from '../assets';
-import { axis,aubank } from '../assets';
+import { axis,aubank,safety } from '../assets';
+import { layout } from '../style';
 
 const Contact= () => {
   const [userData,setUserData]=useState({
@@ -59,8 +60,9 @@ else{
 }
 }
     return <>
+ 
       <main id="Contact" className="relative py-28 bg-gray-900 rounded-lg">
-          <div className="relative z-10 max-w-screen-lg mx-auto text-gray-600 sm:px-4 md:px-8 animate-jump-in animate-once animate-duration-1000 animate-delay-100">
+          <div className=" relative z-10 max-w-screen-lg mx-auto text-gray-600 sm:px-4 md:px-8 animate-jump-in animate-once animate-duration-1000 animate-delay-100">
               <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
                   <h3 className="text-cyan-400 font-semibold">
                      Finages 24 x 7
@@ -191,6 +193,53 @@ else{
         
 
       </main>
+      <div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-3">
+  <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quick and Simple Process</h3>
+         
+        </blockquote>
+  
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quick and Simple Process</h3>
+         
+        </blockquote>
+  
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">High Value Loans</h3>
+         
+        </blockquote>
+  
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Low Interest Rates</h3>
+         
+        </blockquote>
+  
+    </figure>
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quick and Simple Process</h3>
+         
+        </blockquote>
+  
+    </figure>
+
+ 
+    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Speedy Approval and Disbursal</h3>
+         
+        </blockquote>
+  
+    </figure>
+
+</div>
       </>
 }
 export default Contact;

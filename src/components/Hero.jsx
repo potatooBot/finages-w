@@ -15,7 +15,7 @@ import Contact from "./Contact";
 import CreditCard from "./CreditCard";
 import Carousel from "./Carousel";
 import Reach from "./Reach";
-import { carloan3 } from "../assets";
+import { carloan3 ,trustus} from "../assets";
 const Hero = () => {
   return <>
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -83,14 +83,7 @@ const Hero = () => {
     <div className="flex-1 flex flex-col">
       <h3 className="font-poppins font-semibold xs:text-[48px] text-[30px]" style={{color: 'Blue'}}>  Why to  <span style={{color: 'Blue'}}>Trust</span>{' '} Us ? </h3>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`} style={{color: 'Black'}}>
-      Any individual aged 21 to 65 years with a good credit score
-and a steady income can apply for a car loan. Whether you
-are a salaried individual or a self-employed person, the
-minimum annual income requirement of an applicant is
-Rs.2 lakh. The applicant should have at the least 2 years of
-work experience in the same profession. In other words,
-the individual must hold down a job in the same field for
-minimum 2 years.
+      Finages has the means and resources to make life comfortable and secure for you. Our 24/7 digital resources are designed to serve your immediate and urgent computing needs, so that you can compute your car loan eligibility, EMIs, cost of loan, etc. With an eye on your wellbeing, we work for you. Trust us, you'll thank your stars that you're with us.
       </p>
     </div>
 
@@ -98,56 +91,10 @@ minimum 2 years.
 
 
     <div className={layout.sectionImg}>
-      <img src={carloan3} alt="billing" className="w-[80%] h-[80%] animate-bounce animate-infinite animate-duration-[2000ms] rounded-lg" />
+      <img src={trustus} alt="billing" className="w-[80%] h-[80%] animate-bounce animate-infinite animate-duration-[2000ms] rounded-lg" />
     </div>
   </section>
-  <div class="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-3">
-  <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quick and Simple Process</h3>
-         
-        </blockquote>
-  
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quick and Simple Process</h3>
-         
-        </blockquote>
-  
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">High Value Loans</h3>
-         
-        </blockquote>
-  
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Low Interest Rates</h3>
-         
-        </blockquote>
-  
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quick and Simple Process</h3>
-         
-        </blockquote>
-  
-    </figure>
 
- 
-    <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
-        <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Speedy Approval and Disbursal</h3>
-         
-        </blockquote>
-  
-    </figure>
-
-</div>
       <Footer/>  
 
       </div>

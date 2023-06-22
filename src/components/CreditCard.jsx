@@ -5,7 +5,7 @@ import "./casousel.css";
 import styles from "../style";
 import { layout } from "../style";
 import Button from "./Button";
-import { axis_cred_card,sbi,sbi_card ,safety,yescard,clock,kotak,icicicard,bajajfinserv,hdfcard,indusland,idfc,tatacapital,adityacard,yes_bank} from "../assets";
+import { axis_cred_card,sbi,sbi_card ,trustus,safety,yescard,clock,kotak,icicicard,bajajfinserv,hdfcard,indusland,idfc,tatacapital,adityacard,yes_bank, cardsection} from "../assets";
 import Footer from "./Footer";
 const responsive = {
     superLargeDesktop: {
@@ -81,7 +81,7 @@ const CreditCard = () => {
     <div className={layout.sectionInfo}>
     
     <h2 className={`${styles.heading2} text-black`}>
-      Credit Card Services
+      Credit Card
     </h2>
     <p className={`font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]  mt-5 text-black`}>
       As of today, credit cards are critical tools that empower a person to acquire goods,
@@ -89,14 +89,134 @@ const CreditCard = () => {
 
 
     </p>
+    <section id="CTA" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
+    <div className="flex-1 flex flex-col">
+      <h3 className="font-poppins font-semibold xs:text-[48px] text-[30px]" style={{color: 'Blue'}}>  Benefits of  <span style={{color: 'Blue'}}>Credit</span>{' '} Card </h3>
+      <div className="flex-2 flex flex-col">
+            {/* <h2 class="font-poppins mb-2 text-lg font-bold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Types of Credit Crads</h2> */}
+            {/* <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span> */}
+            <ul class=" my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
+                <li>
+              
+                <span className="text-bold">
+                Easy access to credit
+                </span> 
+                </li>
+                <li>
+                Building a line of credit
+              </li>
+
+              <li>
+              EMI facility
+              </li>
+              <li>
+              Incentives and offers
+              </li>
+              <li>
+              Flexible credit
+              </li>
+              <li>
+              Record of expenses
+              </li>
+              <li>
+              Purchase protection
+              </li>
+          
+            </ul>
+        </div>
+    </div>
+
+   
+
+
+    <div className={layout.sectionImg}>
+      <img src={cardsection} alt="billing" className="w-[80%] h-[80%] animate-bounce animate-rotate-y rounded-lg rounded-3xl " />
+    </div>
+  </section>
     <a href="https://finages-emi.netlify.app">
     </a>
   </div>
-  <div id="Credit" className="parent">
+  <h2 className={ `${styles.heading2} flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
+      Our Partners
+      </h2>
+  <div class="container my-2 m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
+  
+  <div>
+    <div class=" myx-2 flex flex-col lg:flex-row rounded overflow-hidden h-auto  border shadow shadow-lg rounded-3xl ">
+    
+      <div class="backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight justify-center w-full">
+        <h1>Travel credit cards</h1>
+        </div>
+   
+      </div>
+    </div>
+  </div>
+  
+
+  <div>
+
+  </div>
+  <div>
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto  border shadow shadow-lg rounded-3xl ">
+    
+      <div class="backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight justify-center w-full">
+        <h1>Student credit cards</h1>
+        </div>
+   
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto  border shadow shadow-lg rounded-3xl ">
+    
+      <div class="backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight justify-center w-full">
+        <h1>Fuel credit cards</h1>
+        </div>
+   
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto  border shadow shadow-lg rounded-3xl ">
+    
+      <div class="backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight justify-center w-full">
+        <h1>   Shopping Credit Card</h1>
+        </div>
+   
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto  border shadow shadow-lg rounded-3xl ">
+    
+      <div class="backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight justify-center w-full">
+        <h1> Reward Credit Card</h1>
+        </div>
+   
+      </div>
+    </div>
+  </div>
+
+  <div>
+
+  </div>
+
+
+  
+
+</div>
+
+  {/* <div id="Credit" className="parent">
   <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
         <div className="flex-2 flex flex-col">
             <h2 class="font-poppins mb-2 text-lg font-bold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Types of Credit Crads</h2>
-            {/* <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span> */}
+            <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span>
             <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
                 <li>
               
@@ -148,7 +268,7 @@ const CreditCard = () => {
           );
         })}
       </Carousel>
-    </div>
+    </div> */}
     <section id="CTA" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
       <h3 className="font-poppins font-semibold xs:text-[48px] text-[30px]" style={{color: 'Black'}}> When  <span style={{color: 'Blue'}}>Not to</span>{' '}  Use a  Credit Card </h3>

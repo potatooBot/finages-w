@@ -9,15 +9,11 @@ const CardDeal = () => (
        Check EMI with our  <span style={{color: 'black'}}>EMI Calculator</span>{' '}  <br className="sm:block hidden" /> in few easy
         steps.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
-       Dummy DUMMY DUMMY DUMMY DUMMY DUMMY  
-      </p>
-
      
       <a href="https://finages-emi.netlify.app">
 
-<button onClick={() => { window.open("www.google.com") } } type="button" className={`my -5 py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-Contact Us
+<button onClick={() => { window.open("https://finages-emi.netlify.app","_self") } } type="button" className={`my -5 py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+Calculate
 </button>
 </a>
     </div>

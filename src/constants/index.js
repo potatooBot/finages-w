@@ -102,12 +102,12 @@ export const stats = [
   {
     id: "stats-1",
     title: "Loans disbursed in F. Y 2021-2022",
-    value: " 80373137",
+    value: " 8 Cr+",
   },
   {
     id: "stats-2",
     title: "Loans disbursed in F. Y 2022- 2023",
-    value: " 137732585",
+    value: " 13 Cr+",
   },
 
 ];

@@ -71,8 +71,12 @@ import adityacard from "./adityacard.png"
 import yescard from "./yescard.png"
 import clock from "./clock.png"
 import safety from "./safety.png";
-
+import trustus from "./trustus.png";
+import cardsection  from "./cardsection.png";
 export {
+
+  cardsection,
+trustus,
   safety,
   tatacapital,
 adityacard,
