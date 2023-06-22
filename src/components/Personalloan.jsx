@@ -28,7 +28,7 @@ const Personalloan = () => {
             </div>
 
             <div className={layout.sectionInfo}>
-                <h4 className={`font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[76.8px] leading-[65.8px] w-full  text-black`}>
+                <h4 className={`font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[65.8px] w-full  text-black`}>
                     What is Personal Loan ?
                 </h4>
                 <p className={` ${styles.paragraph} max-w-[470px] mt-5 text-black`}>
@@ -306,11 +306,11 @@ minimum 2 years.
                 </ul>
             </div>
         </section>
-        <div class="relative overflow-x-scroll shadow-md sm:rounded-lg">
+        <div class="relative overflow-x shadow-md sm:rounded-lg">
         <div>
         <h1 class="font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Personal Loan – Overview</h1>
         </div>
-            <table class=" w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
+            <table class=" overflow-x-scroll w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
 
                 <thead class="font-poppins text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
