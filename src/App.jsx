@@ -1,5 +1,5 @@
 import styles from "./style";
-import {Reach,Career,Carloan, Billing, Business, CardDeal, Clients,Carousel, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contact,Apply,CreditCard, Personalloan } from "./components";
+import {Reach,Career,Carloan, Billing, Business, CardDeal, Clients,Carousel,Homeloan, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contact,Apply,CreditCard, Personalloan } from "./components";
 
 import {BrowserRouter, Routes,Route } from "react-router-dom";
 import Test from "./Test";
@@ -10,9 +10,9 @@ function App  () {
 return (
 
   <BrowserRouter>
-<div className="bg-gradient-to-r from-gray-100 to-gray-300  overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+<div style={{zIndex:9999}} className="bg-gradient-to-r from-gray-100 to-gray-300  overflow-hidden">
+    <div className={` ${styles.paddingX} ${styles.flexCenter}`} style={{zIndex:9999}}>
+      <div className={`${styles.boxWidth} `} style={{zIndex:9999}}>
         <Navbar /> 
       </div>
     </div>
@@ -45,7 +45,6 @@ return (
      <div className={`bg-gradient-to-r from-gray-100 to-gray-300 ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
 <Carloan/>
-
       </div>
       </div>
 }/>
@@ -54,6 +53,13 @@ return (
       <div className={`${styles.boxWidth}`}>
 <Personalloan/>
 
+      </div>
+      </div>
+}/>
+  <Route path="/homeloan" element={
+     <div className={`bg-gradient-to-r from-gray-100 to-gray-300 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+<Homeloan/>
       </div>
       </div>
 }/>

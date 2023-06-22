@@ -177,7 +177,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                     RS. 70,000
                 </th>
                 <td class="px-6 py-4">
-                    Rs. 16.20 Lakhs
+                    Rs.13 Lakhs to Rs. 16.20 Lakhs
                 </td>
       
             </tr>
@@ -186,7 +186,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                     RS. 80,000
                 </th>
                 <td class="px-6 py-4">
-                    Rs. 18.90 Lakhs
+                Rs.16 Lakhs to Rs. 19 Lakhs
                 </td>
       
             </tr>
@@ -195,7 +195,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                     RS. 90,000
                 </th>
                 <td class="px-6 py-4">
-                    Rs. 21.30 Lakhs
+                Rs.19 Lakhs to Rs. 20 Lakhs
                 </td>
       
             </tr>
@@ -204,12 +204,15 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                     RS. 1,00,000
                 </th>
                 <td class="px-6 py-4">
-                    Rs. 23.63 Lakhs
+                Rs.20 Lakhs to Rs. 23 Lakhs
                 </td>
       
             </tr>
         </tbody>
     </table>
+    <div>
+        <h1 class="font-poppins flex items-center justify-center mb-2 text-sm font-semibold text-gray-900 dark:text-white" style={{ color: "#14141" }}>*Interest Rate may vary depending on your Credit score and Banks</h1>
+        </div>
 </div>
 
         {/* <section className={layout.section} id="EMI">
@@ -297,6 +300,9 @@ minimum 2 years.
                     </li>
                     <li>
                         Address Proof
+                    </li>
+                    <li>
+                        Photograph
                     </li>
                     <li>
                     Self-attestation of borrowers on all documents

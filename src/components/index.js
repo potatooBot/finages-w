@@ -16,8 +16,10 @@ import Reach from "./Reach";
 import Career from "./Career";
 import Carloan from "./Carloan";
 import Personalloan from "./Personalloan";
+import Homeloan from "./Homeloan";
 export {
   Carloan,
+  Homeloan,
 Personalloan,
   Career,
   Reach,

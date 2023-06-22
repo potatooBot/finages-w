@@ -56,9 +56,13 @@ import time from "./time.png"
 import hand from "./hand.png"
 import pay from "./pay.png"
 import pl1 from "./pl1.png"
+import hl from "./hl.png";
+import homeicon from "./homeicon.png"
 export {
   carloan,
   pl1,
+  homeicon,
+  hl,
 hand,pay,
   fee,time,
   carloan2,

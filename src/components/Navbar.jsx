@@ -19,13 +19,13 @@ const Navbar = () => {
   return <>
 
 
-    <nav className=" w-full flex py-10 justify-between items-center boreder-none ">
+    <nav className=" w-full flex py-10 justify-between items-center boreder-none " style={{zIndex:9999}}>
     <a href="/">
 
     
       <img src={finages_logo} alt="Finages" className="w-[150px] h-[40px]" />
       </a>
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1 ">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 " style={{zIndex:9999}}>
         {navLinks.map((nav, index) => (
           
           <li
@@ -47,15 +47,13 @@ const Navbar = () => {
         unmount: { y: 55 },
       }}
     >
-      <MenuHandler>
+      <MenuHandler style={{zIndex:9999}}>
         <span className="text-black font-poppins font-medium cursor-pointer text-[16px] mx-10" >Loans</span>
       </MenuHandler>
-      <MenuList style={{zIndex:9999}}>
-    
+      <MenuList style={{zIndex:9999}} className="z-50">
         <MenuItem onClick={() => window.open("/Carloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
-    
         <MenuItem onClick={() => window.open("/Personalloan","_self")} style={{zIndex:9999}}  className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5"  >Personal  Loan</MenuItem>
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Auto Loan</MenuItem>
+        <MenuItem onClick={() => window.open("/Homeloan","_self")} style={{zIndex:9999}}  className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5"  >Home Loan</MenuItem>
         <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
       </MenuList>
     </Menu>
@@ -89,23 +87,21 @@ const Navbar = () => {
             ))}
             <Menu 
       animate={{
-        
         mount: { y: 0 },
         unmount: { y: 55 },
       
       }}
      
     >
-      <MenuHandler >
+      <MenuHandler style={{zIndex:9999}} >
         <span className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Loans</span>
       </MenuHandler>
       <MenuList className="my-5 z-50" style={{zIndex:9999}} >
     
         <MenuItem onClick={() => window.open("/Carloan","_self")}className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
         <MenuItem  onClick={() => window.open("/Personalloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal Loan</MenuItem>
-        <MenuItem  style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5">Home Loan</MenuItem>
-   
-        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+        <MenuItem onClick={() => window.open("/homeloan","_self")}    style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5">Home Loan</MenuItem>
+        <MenuItem style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
       </MenuList>
     </Menu>
           </ul>
