@@ -5,7 +5,7 @@ import "./casousel.css";
 import styles from "../style";
 import { layout } from "../style";
 import Button from "./Button";
-import { axis_cred_card,sbi,sbi_card ,kotak,icicicard,bajajfinserv,hdfcard,indusland,idfc,tatacapital,adityacard,yes_bank} from "../assets";
+import { axis_cred_card,sbi,sbi_card ,safety,yescard,clock,kotak,icicicard,bajajfinserv,hdfcard,indusland,idfc,tatacapital,adityacard,yes_bank} from "../assets";
 import Footer from "./Footer";
 const responsive = {
     superLargeDesktop: {
@@ -68,7 +68,7 @@ adityacard
   },
   {
     url:
-yes_bank
+yescard
   },
   //Fourth image url
 
@@ -149,6 +149,78 @@ const CreditCard = () => {
         })}
       </Carousel>
     </div>
+    <section id="CTA" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
+    <div className="flex-1 flex flex-col">
+      <h3 className="font-poppins font-semibold xs:text-[48px] text-[30px]" style={{color: 'Black'}}> When  <span style={{color: 'Blue'}}>Not to</span>{' '}  Use a  Credit Card </h3>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`} style={{color: 'Black'}}>
+      Paying with credit cards isn't always better than paying with cash. Retailers honor credit cards because they want to make it easy for you to shop there. But the merchants still have to pay the major credit card companies a portion of every sale in the form of a transaction fee. Since a cash sale means more to the retailer's bottom line than an equivalent credit sale, some retailers give discounts for the privilege of immediately taking your cash. On a big item, like a furniture set, for instance, the difference could be substantial.
+      </p>
+    </div>
+
+   
+
+
+    <div className={layout.sectionImg}>
+      <img src={clock} alt="billing" className="w-[80%] h-[80%] animate-bounce animate-wiggle animate-infinite rounded-lg" />
+    </div>
+  </section>
+  <section id="product" className={layout.sectionReverse}>
+    <div className={layout.sectionImgReverse}>
+      <img src={safety} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-lg" />
+
+      {/* gradient start */}
+      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+      <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+      {/* gradient end */}
+    </div>
+
+    {/* <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}> */}
+        <div className="flex-2 flex flex-col">
+            <h2 class=" font-poppins mb-2 text-lg font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Few Amazing Tips For Your Credit Card Safety?</h2>
+
+            <ul class=" font-poppins w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400" style={{ color: "#141414" }}>
+
+                <li>
+                Only Use Credit Card On Trusted Websites
+                </li>
+                <li>
+                Set Up A Strong Password
+                </li>
+                <li>
+                Never Shop In Public.
+                </li>
+                <li>
+                If a website or link appears shady or suspicious, don’t click or use it.
+                </li>
+                <li>
+                Beware of public Wi-Fi:
+                </li>
+                <li>
+                Get a card protection plan
+                </li>
+                <li>
+                Remember ‘S’ is for secure
+                </li>
+<li>
+Keep your account number private
+</li>
+<li>
+Protect yourself online.
+</li>
+<li>
+Practice credit card protection . Sign the back of a new card upon receipt.
+</li>
+             
+            </ul>
+        </div>
+   
+
+
+
+    
+    
+
+  </section>
     <Footer/>
     </>
 };

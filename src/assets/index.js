@@ -69,11 +69,16 @@ import idfc from "./idfc.png";
 import tatacapital from "./tatacapital.png"
 import adityacard from "./adityacard.png"
 import yescard from "./yescard.png"
+import clock from "./clock.png"
+import safety from "./safety.png";
 
 export {
+  safety,
   tatacapital,
 adityacard,
   idfc,
+  clock,
+  yescard,
 kotak,
 hdfcard,
 indusland,

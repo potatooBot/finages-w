@@ -359,195 +359,122 @@ minimum 2 years.
             </ul>
         </div>
     </section>
-    {/* <div class="relative overflow-x shadow-md sm:rounded-lg">
-    <div>
-    <h1 class="font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Business Loan – Overview</h1>
-    </div>
-        <table class=" overflow-x-scroll w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
-
-            <thead class="font-poppins text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
-                <tr>
-                    <th scope="col" className="px-6 py-3">
-                    CIBIL Ratings
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                    Credit Score
-                    </th>
-                    <th  class="px-6 py-3">
-                    Chances of being approved for a Business Loan
-                    </th>
-                </tr>
-            </thead>
-            <tbody className="font-poppins">
-                <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    Poor
-                    </th>
-                    <td className="px-6 py-4">
-                    Less than 600
-                    </td>
-                    <td className="px-6 py-4">
-                           
-                    You may not qualify for a Business loan
-                    </td>
-                </tr>
-
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    Average
-                    </th>
-                    <td className="px-6 py-4">
-                    Between 600 and 750
-                    </td>
-                    <td className="px-6 py-4">
-                           
-                    Loan may be approved, but at a high interest rate
-                    </td>
-                </tr>
-                <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    Good
-                    </th>
-                    <td className="px-6 py-4">
-                    Over 750
-                    </td>
-                    <td className="px-6 py-4">
-                    Loan is likely to be approved with a lower interest rate
-                    </td>
-                </tr>
-
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    Excellent
-                    </th>
-                    <td className="px-6 py-4">
-                    Between 800 and 900
-                    </td>
-                    <td className="px-6 py-4">
-                           
-                    Loan with a low interest rate, faster approval, larger loan amount
-                    </td>
-                </tr>
-
-          
-            </tbody>
-        </table>
-    </div> */}
+   
     
-    <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
     <div>
-    <h1 class="my-10 font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Business Loan Interest Rates at Leading Banks</h1>
+    <h1 className="my-10 font-poppins flex items-center justify-center mb-2 text-xl font-semibold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Business Loan Interest Rates at Leading Banks</h1>
     </div>
-    <table class="font-poppins w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
+    <table className="font-poppins w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
 
-<thead class="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
+<thead className="text-xs text-gray-700 uppercase bg-blue-200 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                    <th scope="col" class="px-6 py-3">
+                    <th scope="col" className="px-6 py-3">
                         Bank Name
                     </th>
-                    <th scope="col" class="px-6 py-3">
+                    <th scope="col" className="px-6 py-3">
                         Business Loan Interest Rate
                     </th>
 
                 </tr>
             </thead>
             <tbody>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                       Axis Bank
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                            
                     14.95%-19.20 p.a.
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     Aditya Birla Finance
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     13%- 16% p.a .
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                         Yes Bank
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     13.40% to 16.25%
                     </td>
                 </tr>
 
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     HDFC Bank
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     10%- 16.25% p.a
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     IDFC FIRST Bank
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     10.50% p.a onwards
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     Kotak Mahindra Bank
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     16% p.a. to 26% p.a.
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     TATA Capital Finance 
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     15%  onwards
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     ICICI Bank
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     18% p.a
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     Bajaj Finserv
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     9.75% p.a. to 30% p.a.
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     Finnable
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     9.50%* p.a.
                     </td>
                 </tr>
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                     HDB Financial Services
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     Upto 36%
                     </td>
                 </tr>
 
-                <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                        Indusland Bank
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                     13% to 22%
                     </td>
                 </tr>
@@ -556,7 +483,7 @@ minimum 2 years.
      
     </div>
     <div>
-    <h1 class="font-poppins flex items-center justify-center mb-2 text-sm font-semibold text-gray-900 dark:text-white" style={{ color: "#14141" }}>*Interest Rate may vary depending on your Banks.</h1>
+    <h1 className="font-poppins flex items-center justify-center mb-2 text-sm font-semibold text-gray-900 dark:text-white" style={{ color: "#14141" }}>*Interest Rate may vary depending on your Banks.</h1>
     </div>
 
     <Footer />
