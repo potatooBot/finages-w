@@ -61,7 +61,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan amount</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Personal loan amount</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">
 
                                     Banks and NBFCs usually offer personal loans for amounts ranging from Rs 10,000 to Rs 40 lakh. However, the personal loan amount you are eligible for would primarily depend on your loan repayment capacity. Banks and NBFCs evaluate your repayment capacity primarily on the basis of your monthly disposable income.
@@ -76,7 +76,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan tenure</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Personal loan tenure</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 ">Generally, a loan tenure ranges from 12 months to 60 months. However, nowadays, many experienced and reputed lenders offer borrowers the choice of closing a loan in 3 months. Your loan tenure should depend on where you personally stand financially. A higher income can help you close a loan in a short tenure. </p>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan interest rate</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Personal loan interest rate</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> The personal loan interest rates range between 8.75% p.a. and 49.5% p.a. Depending on the loan amount availed by you, your credit score, and repayment tenure, the rate of interest on your loan is decided. If you maintain a high credit score and have a good relationship with the bank, then the interest rate on your personal loan can be lowered.</p>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Personal loan EMI</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Personal loan EMI</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A personal loan EMI calculator can help you accurately determine your EMIs. You just need to select the loan amount, rate of interest and tenure, to get the exact EMI payable for your personal loan.</p>
                                  
                                     {/* <h5 style={{color:"black"}}>EMI = [PxRX(1+R)^N]/[(1+R)^N-1], wherein P represents the loan amount, R is the interest rate charged per month, and N indicates the total number of monthly installments</h5> */}
@@ -119,7 +119,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Processing fee</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Processing fee</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Loan providers levy a one-time charge known as the processing fee, which can increase the cost of the loan. Even if you are charged a low interest, it is important to check and compare the processing fee charged by different lenders.</p>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Prepayment/Preclosure</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Prepayment/Preclosure</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Certain banks may charge you a pre-closure fee if you repay the outstanding loan balance before the completion of the loan repayment tenure. Make sure to check if the bank/financial institution that you are applying to levies a pre-closure charge.</p>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ A personal loan is a type of loan that individuals can borrow from a bank, credi
                                     </div>
                                 </div>
                                 <div className="w-10/12">
-                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800"> &#8226; Foreclosure</h4>
+                                    <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Foreclosure</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> You Can foreclose your personal loan after 3 months.Loan foreclosure is the full repayment of your remaining loan amount in one single payment instead of paying multiple EMIs. If you have surplus funds that you would like to use to repay your ongoing personal loan, you can opt for the personal loan foreclosure facility.</p>
                                 </div>
                             </div>
