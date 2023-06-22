@@ -33,7 +33,7 @@ const Businessloan = () => {
             </h4>
             <p className={` ${styles.paragraph} animate-fade-up animate-once max-w-[470px] mt-5 text-black`}>
 
-            A business loan is a financial instrument that can be used to cover both unexpected and anticipated expenses. A business loan loan is borrowed money that businesses use to cover costs they can't afford on their own in the short term.               
+            A business loan is a financial instrument that can be used to cover both unexpected and anticipated expenses. A business loan is borrowed money that businesses use to cover costs they can't afford on their own in the short term.               
             </p>
     
             <button onClick={() => window.open("/ApplyLoans","_self")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>

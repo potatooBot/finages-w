@@ -60,7 +60,25 @@ import hl from "./hl.png";
 import homeicon from "./homeicon.png"
 import businessloan from "./businessloan.png"
 import bu1 from "./bu1.png" 
+import kotak from "./kotak.png";
+import bajajfinserv from "./bajajfinserv.png";
+import icicicard from "./icicicard.png"; 
+import hdfcard from "./hdfccard.png";
+import indusland from "./indusland.png";
+import idfc from "./idfc.png";
+import tatacapital from "./tatacapital.png"
+import adityacard from "./adityacard.png"
+import yescard from "./yescard.png"
+
 export {
+  tatacapital,
+adityacard,
+  idfc,
+kotak,
+hdfcard,
+indusland,
+icicicard,
+bajajfinserv,
   bu1,
   carloan,
   pl1,

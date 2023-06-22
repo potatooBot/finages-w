@@ -74,6 +74,9 @@ const Hero = () => {
       <Carousel/>
        <CardDeal/>
        <Testimonials/>
+       <h2 className={ `${styles.heading2} flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
+      Our Partners
+      </h2>
        <Clients/>
        <Reach/>
        <section id="CTA" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>

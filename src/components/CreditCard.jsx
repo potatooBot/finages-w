@@ -5,7 +5,7 @@ import "./casousel.css";
 import styles from "../style";
 import { layout } from "../style";
 import Button from "./Button";
-import { axis_cred_card,sbi,sbi_card } from "../assets";
+import { axis_cred_card,sbi,sbi_card ,kotak,icicicard,bajajfinserv,hdfcard,indusland,idfc,tatacapital,adityacard,yes_bank} from "../assets";
 import Footer from "./Footer";
 const responsive = {
     superLargeDesktop: {
@@ -30,38 +30,60 @@ const sliderImageUrl = [
   //First image url
   {
     url:
-     sbi_card
+     kotak
   },
   {
     url:
-     sbi_card
+    icicicard
   },
   //Second image url
   {
     url:
-      sbi_card
+      bajajfinserv
   },
   //Third image url
   {
     url:
      axis_cred_card
   },
-
-  //Fourth image url
-
   {
     url:
-      sbi_card
-  }
+     hdfcard
+  },
+  {
+    url:
+     indusland
+  },
+  {
+    url:
+    idfc
+  },
+  {
+    url:
+tatacapital
+  },
+  {
+    url:
+adityacard
+  },
+  {
+    url:
+yes_bank
+  },
+  //Fourth image url
+
+
 ];
 const CreditCard = () => {
 
   return <>
+  
     <div className={layout.sectionInfo}>
+    
     <h2 className={`${styles.heading2} text-black`}>
       Credit Card Services
     </h2>
-    <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
+    <p className={`font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]  mt-5 text-black`}>
       As of today, credit cards are critical tools that empower a person to acquire goods,
       and avail of services with the comfort of making payments for those purchases on another date.
 
@@ -69,8 +91,35 @@ const CreditCard = () => {
     </p>
     <a href="https://finages-emi.netlify.app">
     </a>
-  </div><div id="Credit" className="parent">
+  </div>
+  <div id="Credit" className="parent">
+  <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
+        <div className="flex-2 flex flex-col">
+            <h2 class="font-poppins mb-2 text-lg font-bold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Types of Credit Crads</h2>
+            {/* <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span> */}
+            <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
+                <li>
+              
+                Travel Credit Card
+                </li>
+                <li>
+                Fuel Credit Card
+              </li>
 
+              <li>
+              Reward Credit Card
+              </li>
+              <li>
+              Secured Credit Card
+              </li>
+              <li>
+              Shopping Credit Card
+              </li>
+              
+          
+            </ul>
+        </div>
+    </section>
       <Carousel
         responsive={responsive}
         autoPlay={true}
