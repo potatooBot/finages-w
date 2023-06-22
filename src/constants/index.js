@@ -50,23 +50,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Making dreams a reality",
     content:
-      "ummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
+      "Transforming dreams into tangible realities through unwavering determination and relentless pursuit.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Freedom from financial worries",
     content:
-      "ummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
+      "With Finages Leaving worries behind and opening doors to a world of possibilities.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Growth Opputunity",
     content:
-      "ummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
+      "With Finages Nnrture your financial potential and unlock boundless growth opportunities in the world of finance.",
   },
 ];
 

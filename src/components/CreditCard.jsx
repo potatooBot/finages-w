@@ -212,34 +212,8 @@ const CreditCard = () => {
 
 </div>
 
-  {/* <div id="Credit" className="parent">
-  <section id="CTA" className={` ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
-        <div className="flex-2 flex flex-col">
-            <h2 class="font-poppins mb-2 text-lg font-bold text-gray-900 dark:text-white" style={{ color: "#311b92" }}>Types of Credit Crads</h2>
-            <span className='my-2 text-black-600 font-poppins' >Though the eligibility criteria differ from bank to bank, these are the most common eligibility criteria required for a Home loan</span>
-            <ul class="my-2 w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400 font-poppins" style={{ color: "#141414" }}>
-                <li>
-              
-                Travel Credit Card
-                </li>
-                <li>
-                Fuel Credit Card
-              </li>
-
-              <li>
-              Reward Credit Card
-              </li>
-              <li>
-              Secured Credit Card
-              </li>
-              <li>
-              Shopping Credit Card
-              </li>
-              
-          
-            </ul>
-        </div>
-    </section>
+  <div id="Credit" className="parent">
+  
       <Carousel
         responsive={responsive}
         autoPlay={true}
@@ -268,7 +242,7 @@ const CreditCard = () => {
           );
         })}
       </Carousel>
-    </div> */}
+    </div>
     <section id="CTA" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
       <h3 className="font-poppins font-semibold xs:text-[48px] text-[30px]" style={{color: 'Black'}}> When  <span style={{color: 'Blue'}}>Not to</span>{' '}  Use a  Credit Card </h3>
@@ -333,13 +307,6 @@ Practice credit card protection . Sign the back of a new card upon receipt.
              
             </ul>
         </div>
-   
-
-
-
-    
-    
-
   </section>
     <Footer/>
     </>

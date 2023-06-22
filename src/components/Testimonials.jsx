@@ -10,11 +10,11 @@ const Testimonials = () => (
       <h2 className={`${styles.heading2} text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
         What People are <br className="sm:block hidden" /> saying about us
       </h2>
-      <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px] text-black`}>
-        dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
-        </p>
-      </div>
+      {/* <div className="w-full md:mt-0 mt-6">
+        <h2 className={`text-left  text-black`}>
+        Your trust is our Motto.
+        </h2>
+      </div> */}
     </div>
 
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1] text-black">

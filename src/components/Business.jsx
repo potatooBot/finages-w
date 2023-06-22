@@ -32,12 +32,12 @@ const Business = () =>  {
         the Loan.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
-     DUmmy dummy dummy  DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy
+      With our expert loan services, you can focus on what you do best – growing your business. Let us handle the complexities of securing the funds you need, while you seize every opportunity and achieve remarkable success. Say goodbye to financial worries and embrace the freedom to thrive. 
       </p>
       <a >
 
      
-      <button onClick={(e)=>{
+      {/* <button onClick={(e)=>{
         e.preventDefault();
         window.scrollTo({
           top:document.querySelector("#Contact").offsetTop,
@@ -45,7 +45,7 @@ const Business = () =>  {
         });
       }} type="button" className={`py-4 px-6 my-5 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
   Contact Us
-  </button>
+  </button> */}
   </a>
     </div>
 

@@ -14,19 +14,16 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={`${styles.heading2}  text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500`}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+      Loan with ease  <br className="sm:block hidden" />guaranteed with Finaages! 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
-     loremepsum
-     loremepsum     loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum    loremepsum
+      Unlock the door to financial flexibility with easy access to credit card loans and a wide range of loan options tailored to your needs.
       </p>
-      <a href="https://finages-emi.netlify.app">
+   
+      <button onClick={() => window.open("/Contact","_self")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+              Contact Us
+            </button>
 
-<button type="button" className={`my-5 py-3 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-Calculate
-</button>
-</a>
 
 
 
