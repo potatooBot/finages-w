@@ -28,9 +28,9 @@ const Personalloan = () => {
             </div>
 
             <div className={layout.sectionInfo}>
-                <h3 className={`${styles.heading2}  text-black`}>
+                <h4 className={`font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[76.8px] leading-[65.8px] w-full  text-black`}>
                     What is Personal Loan ?
-                </h3>
+                </h4>
                 <p className={` ${styles.paragraph} max-w-[470px] mt-5 text-black`}>
                     
 A personal loan is a type of loan that individuals can borrow from a bank, credit union, or online lender for personal use. Unlike specific-purpose loans (such as auto loans or mortgages), personal loans can be used for a variety of purposes, such as debt consolidation, home improvements, medical expenses, vacations, or unexpected expenses.

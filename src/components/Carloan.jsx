@@ -26,7 +26,7 @@ const Carloan = () => {
             </div>
 
             <div className={layout.sectionInfo}>
-                <h3 className={`${styles.heading2}  text-black`}>
+                <h3 className={`font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[76.8px] leading-[65.8px] w-full text-black`}>
                     What is Car Loan ?
                 </h3>
                 <p className={` ${styles.paragraph} max-w-[470px] mt-5 text-black`}>
