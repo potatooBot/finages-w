@@ -19,15 +19,14 @@ const Navbar = () => {
   return <>
 
 
-    <nav className=" w-full flex py-10 justify-between items-center boreder-none " style={{zIndex:9999}}>
+    <nav className=" w-full flex py-10 justify-between items-center boreder-none ">
     <a href="/">
 
     
       <img src={finages_logo} alt="Finages" className="w-[200px] h-[60px]" />
       </a>
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1 " style={{zIndex:9999}}>
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 " >
         {navLinks.map((nav, index) => (
-          
           <li
             key={nav.id}
             className={`font-poppins font-medium cursor-pointer text-[16px] ${
@@ -50,11 +49,12 @@ const Navbar = () => {
       <MenuHandler style={{zIndex:9999}}>
         <span className="text-black font-poppins font-medium cursor-pointer text-[16px] mx-10" >Loans</span>
       </MenuHandler>
-      <MenuList style={{zIndex:9999}} className="z-50">
+      <MenuList style={{zIndex:99999}} className="z-100">
         <MenuItem onClick={() => window.open("/Carloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
         <MenuItem onClick={() => window.open("/Personalloan","_self")} style={{zIndex:9999}}  className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5"  >Personal  Loan</MenuItem>
         <MenuItem onClick={() => window.open("/Homeloan","_self")} style={{zIndex:9999}}  className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5"  >Home Loan</MenuItem>
         <MenuItem onClick={() => window.open("/Businessloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>
+        {/* <MenuItem onClick={() => window.open("/Businessloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem> */}
       </MenuList>
     </Menu>
       </ul>
@@ -94,11 +94,11 @@ const Navbar = () => {
      
     >
       <MenuHandler style={{zIndex:9999}} >
-        <span className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Loans</span>
+        <span className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5 z-100" >Loans</span>
       </MenuHandler>
       <MenuList className="my-5 z-50" style={{zIndex:9999}} >
     
-        <MenuItem onClick={() => window.open("/Carloan","_self")}className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
+        <MenuItem onClick={() => window.open("/Carloan","_self")} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Car Loan</MenuItem>
         <MenuItem  onClick={() => window.open("/Personalloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Personal Loan</MenuItem>
         <MenuItem onClick={() => window.open("/homeloan","_self")}    style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5">Home Loan</MenuItem>
         <MenuItem onClick={() => window.open("/Businessloan","_self")} style={{zIndex:9999}} className="text-black font-poppins font-medium cursor-pointer text-[16px] my-5" >Business Loan</MenuItem>

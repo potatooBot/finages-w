@@ -99,9 +99,15 @@ const Carloan = () => {
                                     <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Car loan EMI</h4>
                                     <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> Car loan is repaid to the bank in Equated Monthly Installments (EMIs). In order to get instant and accurate results of EMI calculation, use the online car loan EMI calculator that is available for free on the bank website or a reliable third-party website. 
                                         EMI calculation can help you find out how much your car loan will cost you monthly.</p>
+                                        <button onClick={() => window.open("https://finages-emi.netlify.app")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+               Calculate EMI
+            </button>
                                 </div>
+                                
                             </div>
-                     
+                               <button onClick={() => window.open("https://finages-emi.netlify.app")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+               Calculate EMI
+            </button>
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
@@ -456,7 +462,7 @@ minimum 2 years.
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                           Indusland Bank
+                           IndusInd Bank
                         </th>
                         <td class="px-6 py-4">
                         7% - 14%

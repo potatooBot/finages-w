@@ -11,8 +11,8 @@ return (
 
   <BrowserRouter>
 <div style={{zIndex:9999}} className="bg-gradient-to-r from-gray-100 to-gray-300  overflow-hidden">
-    <div className={` ${styles.paddingX} ${styles.flexCenter}`} style={{zIndex:9999}}>
-      <div className={`${styles.boxWidth} `} style={{zIndex:9999}}>
+    <div className={` ${styles.paddingX} ${styles.flexCenter}`} >
+      <div className={`${styles.boxWidth} `}>
         <Navbar /> 
       </div>
     </div>

@@ -17,7 +17,7 @@ const Billing = () => (
       Loan with ease  <br className="sm:block hidden" />guaranteed with Finages! 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 text-black`}>
-      Unlock the door to financial flexibility with easy access to credit card loans and a wide range of loan options tailored to your needs.
+      Unlock the door to financial flexibility with easy access to credit card, loans and a wide range of loan options tailored to your needs.
       </p>
    
       <button onClick={() => window.open("/Contact","_self")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>

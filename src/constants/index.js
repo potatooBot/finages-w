@@ -66,7 +66,7 @@ export const features = [
     icon: send,
     title: "Growth Oppurtunity",
     content:
-      "With Finages Nnrture your financial potential and unlock boundless growth opportunities in the world of finance.",
+      "With Finages Nurture your financial potential and unlock boundless growth opportunities in the world of finance.",
   },
 ];
 
@@ -91,7 +91,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      " I'm grateful for Finages's help in making smart financial choices. They give great advice and recommendations that have helped me make better decisions. It's like having a helpful friend who knows all about money.",
+      " I'm grateful to Finages for helping me in making smart financial choices. They give great advice and recommendations that have helped me make better decisions. It's like having a helpful friend who knows all about money.",
     name: "Keshav Kumar",
     title: "dummy dummy",
     img: people01,
@@ -121,13 +121,26 @@ export const footerLinks = [
         name: "EMI Calculator",
         link: "https://finages-emi.netlify.app",
       },
+   
       {
         name: "Car Loan",
         link: "/Carloan",
       },
       {
+        name: "Home Loan",
+        link: "/Homeloan",
+      },
+      {
+        name: "Business Loan",
+        link: "/Homeloan",
+      },
+      {
         name: "Personal Loan",
         link: "/Personal",
+      },
+      {
+        name: "Credit Card",
+        link: "Credit",
       },
     ],
   },

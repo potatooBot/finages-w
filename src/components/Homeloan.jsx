@@ -156,7 +156,7 @@ const Homeloan = () => {
                             </div>
                             <div className="w-10/12">
                                 <h4 tabIndex={0} className=" focus:outline-none text-xl font-bold leading-tight text-gray-800">  Collateral</h4>
-                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A loan used to purchase or maintain a home,land or other types of real estate ,secured by property itself.</p>
+                                <p tabIndex={0} className="font-poppins font-normal text-dimBlack text-[18px] leading-[30.8px] pt-2 "> A loan used to purchase or maintain a home,land or other types of real estate secured by property itself.</p>
                             </div>
                         </div>
                     </div>
@@ -276,12 +276,12 @@ minimum 2 years.
                 </li>
                 <li>
                 <span style={{color:"orange"}}> Home extension loan: </span>
-                 Taken to add another floor. room, garage, bathroom, or kitchen, etc.
+                 Taken to add another floor,room, garage, bathroom, or kitchen, etc.
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
                 Joint home loan: 
-                </span>  Taken by two or more people, for instance. spouses.
+                </span>  Taken by two or more people, for instance spouses.
                 </li>
                 <li>
                 <span style={{color:"orange"}}>
@@ -356,6 +356,9 @@ A rented residence where he/she has resided for at least a year prior to applyin
                 </li>
                 <li>
                 Income Tax Returns for the last 3 years	Salary Slips for the last three months
+                </li>
+                <li>
+                Salary Slips
                 </li>
                 <li>
                     Address Proof
@@ -560,7 +563,7 @@ A rented residence where he/she has resided for at least a year prior to applyin
 
                 <tr class="border-b border-gray-200 dark:border-gray-700">
                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                       Indusland Bank
+                       IndusInd Bank
                     </th>
                     <td class="px-6 py-4">
                     8.40% - 9.75%
