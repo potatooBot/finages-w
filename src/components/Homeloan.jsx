@@ -317,7 +317,7 @@ minimum 2 years.
                 <li>
                 The applicant must be (any one):
 Resident Indian,
-Non-Resident India (NRI),
+Non-Resident Indian (NRI),
 Person of Indian Origin (PIO).
                 </li>
                 <li>

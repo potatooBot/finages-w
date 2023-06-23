@@ -498,7 +498,7 @@ minimum 2 years.
 
                     <tr class="border-b border-gray-200 dark:border-gray-700">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                           Indusland Bank
+                           IndusInd Bank
                         </th>
                         <td class="px-6 py-4">
                         10.49% p.a. - 26.5% p.a.

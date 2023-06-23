@@ -80,6 +80,14 @@ const Hero = () => {
        <Clients/>
        <Reach/>
        <hr class="w-48 h-1 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+      
+<div class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-black-500 sm:text-center dark:text-gray-400">* In order to ensure effective communication and facilitate future interactions, We will store the necessary information provided.
+</span>
+    </div>
+</div>
+
        <section id="CTA" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col  rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
       <h3 className="font-poppins font-semibold xs:text-[48px] text-[30px]" style={{color: 'Blue'}}>  Why to  <span style={{color: 'Blue'}}>Trust</span>{' '} Us ? </h3>
