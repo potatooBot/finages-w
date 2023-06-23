@@ -73,7 +73,11 @@ import clock from "./clock.png"
 import safety from "./safety.png";
 import trustus from "./trustus.png";
 import cardsection  from "./cardsection.png";
+import hsbc from "./hsbc.png";
+import aucard from "./aucard.png";
 export {
+hsbc,
+aucard,
 
   cardsection,
 trustus,

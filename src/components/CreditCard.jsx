@@ -5,7 +5,7 @@ import "./casousel.css";
 import styles from "../style";
 import { layout } from "../style";
 import Button from "./Button";
-import { axis_cred_card,sbi,sbi_card ,trustus,safety,yescard,clock,kotak,icicicard,bajajfinserv,hdfcard,indusland,idfc,tatacapital,adityacard,yes_bank, cardsection} from "../assets";
+import { axis_cred_card,sbi,sbi_card ,aucard,hsbc,trustus,safety,yescard,clock,kotak,icicicard,bajajfinserv,hdfcard,indusland,idfc,tatacapital,adityacard,yes_bank, cardsection} from "../assets";
 import Footer from "./Footer";
 const responsive = {
     superLargeDesktop: {
@@ -30,7 +30,7 @@ const sliderImageUrl = [
   //First image url
   {
     url:
-     kotak
+    hsbc
   },
   {
     url:
@@ -39,7 +39,7 @@ const sliderImageUrl = [
   //Second image url
   {
     url:
-      bajajfinserv
+    aucard
   },
   //Third image url
   {
@@ -85,7 +85,7 @@ const CreditCard = () => {
     </h2>
     <p className={`font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]  mt-5 text-black`}>
       As of today, credit cards are critical tools that empower a person to acquire goods,
-      and avail of services with the comfort of making payments for those purchases on another date.
+      and avail of services with the comfort of making payments for those purchases at a later date with no extra charges.
 
 
     </p>
