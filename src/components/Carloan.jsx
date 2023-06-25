@@ -105,9 +105,7 @@ const Carloan = () => {
                                 </div>
                                 
                             </div>
-                               <button onClick={() => window.open("https://finages-emi.netlify.app")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-               Calculate EMI
-            </button>
+           
                             <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
                                 <div className="w-20 h-20 relative mr-5">
                                     <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />

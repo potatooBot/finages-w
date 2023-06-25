@@ -311,7 +311,7 @@ minimum 2 years.
                 </li>
 
                 <li>
-                The applicant should have a credit score, or CIBIL, score of 675 and above.
+                The applicant should have a credit score, or CIBIL score of 675 and above.
                 </li>
                 <li>
                 The business should not fall under any list of blacklisted businesses.
@@ -337,7 +337,10 @@ minimum 2 years.
                     KYC documents
                 </li>
                 <li>
-                Income Tax Returns for the last 3 years	Salary Slips for the last three months
+                Income Tax Returns for the last 3 years	.
+                </li>
+                <li>
+                Salary Slips for the last three months.
                 </li>
                 <li>
                 Signed copy of standard terms (term loan facility)

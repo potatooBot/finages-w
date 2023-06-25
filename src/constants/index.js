@@ -102,16 +102,46 @@ export const stats = [
   {
     id: "stats-1",
     title: "Loans disbursed in F. Y 2021-2022",
-    value: " 8 Cr+",
+    value: " 200 Cr+",
   },
   {
     id: "stats-2",
     title: "Loans disbursed in F. Y 2022- 2023",
-    value: " 13 Cr+",
+    value: " 450 Cr+",
   },
 
 ];
+export const stats2 = [
+  {
+    id: "stats-1",
+    title: "Credit Card issued in F. Y 2021-2022",
+    value: " 60 K+",
+  },
+  {
+    id: "stats-2",
+    title: "Credit Card issued  in F. Y 2022- 2023",
+    value: " 75 K+",
+  },
 
+];
+export const stats3 = [
+  {
+    id: "stats-1",
+    title: "Cities",
+    value: " 130 +",
+  },
+  {
+    id: "stats-2",
+    title: "Branches",
+    value: " 1300+",
+  },
+  {
+    id: "stats-3",
+    title: "Employees",
+    value: " 200+",
+  },
+
+];
 export const footerLinks = [
   {
     title: "Useful Links",

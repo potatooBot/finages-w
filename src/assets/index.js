@@ -4,7 +4,6 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -75,10 +74,49 @@ import trustus from "./trustus.png";
 import cardsection  from "./cardsection.png";
 import hsbc from "./hsbc.png";
 import aucard from "./aucard.png";
+import stdchart from "./stdchart.png";
+import avanese from "./avanse.png"
+import rbl from "./rbl.png"
+import fullerton from "./fullerton.png"
+import pnbhouse from "./pnbhouse.png"
+import bajaj from "./bajaj.png"
+import idfcfirstbank from "./idfcfirstbank.png"
+import iifl from "./iifl.png"
+import edel from "./edel.png"
+import indibulls from "./indibulls.png"
+import magma from "./magma.png"
+import pirama from "./pirama.png"
+import religare from "./religare.png"
+import vistara from "./vistara.png"
+import neogrowth from "./neogrowth.png"
+import hinduja from "./hinduja.png"
+import dmi from "./dmi.png"
+import mahindra from "./mahindra.png"
+import incred from "./incred.png"
+import indostar from "./indostar.jpeg"
 export {
+  indostar,
+  incred,
+  mahindra,
+  dmi,
+  hinduja,
+  neogrowth,
+  vistara,
+  religare,
+  pirama,
+  magma,
+  indibulls,
+  edel,
+  iifl,
+  idfcfirstbank,
+  bajaj,
+  fullerton,
+  pnbhouse,
+  rbl,
+  avanese,
 hsbc,
 aucard,
-
+stdchart,
   cardsection,
 trustus,
   safety,

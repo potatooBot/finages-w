@@ -355,10 +355,10 @@ A rented residence where he/she has resided for at least a year prior to applyin
                     KYC documents
                 </li>
                 <li>
-                Income Tax Returns for the last 3 years	Salary Slips for the last three months
+                Income Tax Returns for the last 3 years	.Salary Slips for the last three months.
                 </li>
                 <li>
-                Salary Slips
+                Salary Slips for the last three months.
                 </li>
                 <li>
                     Address Proof

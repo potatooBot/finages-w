@@ -18,7 +18,9 @@ import Carloan from "./Carloan";
 import Personalloan from "./Personalloan";
 import Homeloan from "./Homeloan";
 import Businessloan from "./Businessloan";
+import Partnersection from "./Partnersection";
 export {
+  Partnersection,
   Carloan,
   Businessloan,
   Homeloan,
