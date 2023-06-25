@@ -1,4 +1,4 @@
-import {aubank, axis,aditya,bandhan,people01, people02, people03, facebook, instagram,finnable, indus, linkedin, twitter, airbnb, binance,icici,scb,future, coinbase, dropbox, send,sbi,hdfc,yes_bank ,shield, star  } from "../assets";
+import {aubank, axis,aditya,bandhan,people01,rishiwasdeva, people02,manishjha, people03, facebook, instagram,finnable, indus, linkedin, twitter, airbnb, binance,icici,scb,future, coinbase, dropbox, send,sbi,hdfc,yes_bank ,shield, star, amankumar  } from "../assets";
 
 export const navLinks = [
   {
@@ -75,26 +75,29 @@ export const feedback = [
     id: "feedback-1",
     content:
       "   Finages distribution service has exceeded my expectations in every way. They are responsive, efficient, and they always go the extra mile to help me achieve my goals. I would absolutely recommend them to anyone who is looking for a reliable and effective distribution partner.",
-    name: "Keshav Kumar",
-    title: "dummy dummy",
-    img: people01,
+    name: "Rishi Wasdev",
+    title: "Senior Software developer.",
+    desg: "Scadea software Solutions Pvt Ltd",
+    img: rishiwasdeva,
   },
 
   {
     id: "feedback-2",
     content:
       "   I highly recommend Finages Distribution Service to anyone seeking financial empowerment. Their user-friendly interface, combined with their extensive network of trusted financial partners, has made accessing loans, savings accounts, and other services a hassle-free experience.",
-    name: "Keshav Kumar",
-    title: "dummy dummy",
-    img: people01,
+    name: "Manish Jha",
+    title: "Manager",
+    desg: "Danieli India Limited",
+    img: manishjha,
   },
   {
     id: "feedback-3",
     content:
       " I'm grateful to Finages for helping me in making smart financial choices. They give great advice and recommendations that have helped me make better decisions. It's like having a helpful friend who knows all about money.",
-    name: "Keshav Kumar",
-    title: "dummy dummy",
-    img: people01,
+    name: "Aman Kumar Singh",
+    title: "HR Senior Analyst",
+    desg: "Unisys India Pvt Ltd",
+    img: amankumar,
   },
 ];
 

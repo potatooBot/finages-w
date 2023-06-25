@@ -1,6 +1,6 @@
 import { quotes } from "../assets";
 
-const FeedbackCard = ({ content, name, title, img }) => (
+const FeedbackCard = ({ content, name, title, img,desg }) => (
   <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 backdrop-blur bg-white/50">
     <img src={quotes} alt="double_quotes" className="w-[42.6px] h-[27.6px] object-contain" />
     <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-black my-10">
@@ -15,6 +15,9 @@ const FeedbackCard = ({ content, name, title, img }) => (
         </h4>
         <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimBlack">
           {title}
+        </p>
+        <p className="font-poppins font-semibold text-[14px] leading-[24px] text-dimBlack">
+          {desg}
         </p>
       </div>
     </div>

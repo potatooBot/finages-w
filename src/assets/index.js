@@ -94,10 +94,16 @@ import dmi from "./dmi.png"
 import mahindra from "./mahindra.png"
 import incred from "./incred.png"
 import indostar from "./indostar.jpeg"
+import rishiwasdeva from "./rishiwasdeva.jpeg"
+import manishjha from "./manishjha.jpeg"
+import amankumar from "./amankumar.jpg"
 export {
-  indostar,
+  amankumar,
+  manishjha,
+  rishiwasdeva,
   incred,
   mahindra,
+  indostar,
   dmi,
   hinduja,
   neogrowth,
