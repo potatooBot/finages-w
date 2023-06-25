@@ -177,7 +177,7 @@ const Partnersection = () => {
         autoPlay={true}
         swipeable={true}
         draggable={true}
-        showDots={true}
+        showDots={false}
         infinite={true}
         partialVisible={false}
         dotListClass="custom-dot-list-style"
