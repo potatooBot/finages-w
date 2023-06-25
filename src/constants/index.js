@@ -128,7 +128,7 @@ export const stats3 = [
   {
     id: "stats-1",
     title: "Cities",
-    value: " 130 +",
+    value: " 100 +",
   },
   {
     id: "stats-2",
@@ -138,7 +138,7 @@ export const stats3 = [
   {
     id: "stats-3",
     title: "Employees",
-    value: " 200+",
+    value: " 2000+",
   },
 
 ];
