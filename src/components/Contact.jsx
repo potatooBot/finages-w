@@ -25,7 +25,7 @@ event.preventDefault();
 const  {name,phone,email,income,pan,card}=userData;
 if(name&&phone&&email&&income&&pan){
 const res =fetch(
-"https://finages-f4aaa-default-rtdb.firebaseio.com/CreditCards.json",
+"https://finages-cdda0-default-rtdb.firebaseio.com/CreditCards.json",
 {
     method:"POST",
     headers:{

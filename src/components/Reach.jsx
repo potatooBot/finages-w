@@ -23,7 +23,7 @@ const Reach = () => {
         const  {name,phone,email,income,pan,reaching}=userData;
         if(name&&phone&&email&&income&&pan){
         const res =fetch(
-        "https://finages-f4aaa-default-rtdb.firebaseio.com/userDataRecords.json",
+        "https://finages-cdda0-default-rtdb.firebaseio.com/userDataRecords.json",
         {
             method:"POST",
             headers:{
