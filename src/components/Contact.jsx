@@ -10,7 +10,7 @@ const Contact= () => {
     email:"",
     phone:"",
     income:"",
-    pan:"",
+ 
     card:"",
   });
   let name,value;
@@ -23,7 +23,7 @@ setUserData({... userData,[name]:value});
   const submitData =(event)=>{
 event.preventDefault();
 const  {name,phone,email,income,pan,card}=userData;
-if(name&&phone&&email&&income&&pan){
+if(name&&phone&&email&&income){
 const res =fetch(
 "https://finages-cdda0-default-rtdb.firebaseio.com/CreditCards.json",
 {
@@ -51,13 +51,14 @@ if(res){
     alert("Thank You for filling the form.");
    
 }
+
+
+}
 else{
-    alert("fill again");
-}
-}
-else{
-    alert("Please Fill the Data");
-}
+    alert("Fill Complete Data");
+  }
+
+
 }
     return <>
  

@@ -21,7 +21,7 @@ const Footer = () => (
         Contact : 9830116792
       </h2>
       <h2 className={`${styles.paragraph} mt-4 max-w-[312px] text-black`}>
-       finagesdistribution@gmail.com
+      contactus@finagesdistribution.com
       </h2>
       </div>
 

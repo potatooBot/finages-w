@@ -8,7 +8,6 @@ const Reach = () => {
         email:"",
         phone:"",
         income:"",
-        pan:"",
     reaching:""
     
       });
@@ -21,9 +20,9 @@ const Reach = () => {
       const submitData =(event)=>{
         event.preventDefault();
         const  {name,phone,email,income,pan,reaching}=userData;
-        if(name&&phone&&email&&income&&pan){
+        if(name&&phone&&email&&income){
         const res =fetch(
-        "https://finages-cdda0-default-rtdb.firebaseio.com/userDataRecords.json",
+        "https://finages-userdata-default-rtdb.firebaseio.com/userDataRecords.json",
         {
             method:"POST",
             headers:{
@@ -47,12 +46,13 @@ const Reach = () => {
            
         }
         else{
-            alert("fill again");
+            alert("Fill again");
         }
         }
         else{
-            alert("Please Fill the Data");
+          alert("Fill Complete Data");
         }
+  
         }
   return <>
      <div className="flex items-center min-h-screen bg-gray-50 rounded-lg h-fit" style ={{backgroundImage: `url(${cara3})` }}>
@@ -122,7 +122,6 @@ const Reach = () => {
                 </label>
                 <input
                   className="w-full px-4 py-2 text-sm border rounded-md focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-600"
-                
                   onChange={postUserData}
                   value={userData.pan}
                   name="pan"
